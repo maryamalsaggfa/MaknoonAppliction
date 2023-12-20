@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C6D508B2B334DD10030A604 /* exampleOfFeelingSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D508A2B334DD10030A604 /* exampleOfFeelingSad.swift */; };
 		5C7879AC2B31FC57004C9DDD /* MaknoonApplictionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7879AB2B31FC57004C9DDD /* MaknoonApplictionApp.swift */; };
 		5C7879AE2B31FC57004C9DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7879AD2B31FC57004C9DDD /* ContentView.swift */; };
 		5C7879B02B31FC58004C9DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C7879AF2B31FC58004C9DDD /* Assets.xcassets */; };
 		5C7879B32B31FC58004C9DDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C7879B22B31FC58004C9DDD /* Preview Assets.xcassets */; };
 		5C7879BA2B3204B8004C9DDD /* humanHappyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7879B92B3204B8004C9DDD /* humanHappyState.swift */; };
 		5C7879BC2B321807004C9DDD /* feelingHappyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7879BB2B321807004C9DDD /* feelingHappyState.swift */; };
+		5CF2C52F2B32E7FA00CB0BD7 /* humanSadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C52E2B32E7FA00CB0BD7 /* humanSadState.swift */; };
+		5CF2C5312B32E96800CB0BD7 /* feelingSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5302B32E96800CB0BD7 /* feelingSad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C6D508A2B334DD10030A604 /* exampleOfFeelingSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleOfFeelingSad.swift; sourceTree = "<group>"; };
 		5C7879A82B31FC57004C9DDD /* MaknoonAppliction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaknoonAppliction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7879AB2B31FC57004C9DDD /* MaknoonApplictionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaknoonApplictionApp.swift; sourceTree = "<group>"; };
 		5C7879AD2B31FC57004C9DDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +27,8 @@
 		5C7879B22B31FC58004C9DDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C7879B92B3204B8004C9DDD /* humanHappyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humanHappyState.swift; sourceTree = "<group>"; };
 		5C7879BB2B321807004C9DDD /* feelingHappyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingHappyState.swift; sourceTree = "<group>"; };
+		5CF2C52E2B32E7FA00CB0BD7 /* humanSadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humanSadState.swift; sourceTree = "<group>"; };
+		5CF2C5302B32E96800CB0BD7 /* feelingSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingSad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 				5C7879AB2B31FC57004C9DDD /* MaknoonApplictionApp.swift */,
 				5C7879AD2B31FC57004C9DDD /* ContentView.swift */,
 				5C7879B92B3204B8004C9DDD /* humanHappyState.swift */,
+				5CF2C52E2B32E7FA00CB0BD7 /* humanSadState.swift */,
+				5CF2C5302B32E96800CB0BD7 /* feelingSad.swift */,
 				5C7879BB2B321807004C9DDD /* feelingHappyState.swift */,
+				5C6D508A2B334DD10030A604 /* exampleOfFeelingSad.swift */,
 				5C7879AF2B31FC58004C9DDD /* Assets.xcassets */,
 				5C7879B12B31FC58004C9DDD /* Preview Content */,
 			);
@@ -147,6 +156,9 @@
 				5C7879AC2B31FC57004C9DDD /* MaknoonApplictionApp.swift in Sources */,
 				5C7879BA2B3204B8004C9DDD /* humanHappyState.swift in Sources */,
 				5C7879BC2B321807004C9DDD /* feelingHappyState.swift in Sources */,
+				5CF2C52F2B32E7FA00CB0BD7 /* humanSadState.swift in Sources */,
+				5C6D508B2B334DD10030A604 /* exampleOfFeelingSad.swift in Sources */,
+				5CF2C5312B32E96800CB0BD7 /* feelingSad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
