@@ -20,6 +20,9 @@
 		BD7C83DB2B341548005DAA95 /* LastAnger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83DA2B341548005DAA95 /* LastAnger.swift */; };
 		BD7C83DD2B341691005DAA95 /* LastScared.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83DC2B341691005DAA95 /* LastScared.swift */; };
 		BD7C83DF2B3416E6005DAA95 /* LastHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83DE2B3416E6005DAA95 /* LastHappy.swift */; };
+		BDAA5F212B3424D1002ABFF8 /* LastSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F202B3424D1002ABFF8 /* LastSad.swift */; };
+		BDAA5F232B34264F002ABFF8 /* humanAngerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F222B34264F002ABFF8 /* humanAngerState.swift */; };
+		BDAA5F252B342778002ABFF8 /* feelingAngerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F242B342778002ABFF8 /* feelingAngerState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		BD7C83DA2B341548005DAA95 /* LastAnger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastAnger.swift; sourceTree = "<group>"; };
 		BD7C83DC2B341691005DAA95 /* LastScared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastScared.swift; sourceTree = "<group>"; };
 		BD7C83DE2B3416E6005DAA95 /* LastHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastHappy.swift; sourceTree = "<group>"; };
+		BDAA5F202B3424D1002ABFF8 /* LastSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSad.swift; sourceTree = "<group>"; };
+		BDAA5F222B34264F002ABFF8 /* humanAngerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humanAngerState.swift; sourceTree = "<group>"; };
+		BDAA5F242B342778002ABFF8 /* feelingAngerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingAngerState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 				5C7879AB2B31FC57004C9DDD /* MaknoonApplictionApp.swift */,
 				5C7879AD2B31FC57004C9DDD /* ContentView.swift */,
 				5C7879B92B3204B8004C9DDD /* humanHappyState.swift */,
+				BDAA5F222B34264F002ABFF8 /* humanAngerState.swift */,
+				BDAA5F242B342778002ABFF8 /* feelingAngerState.swift */,
 				5CF2C52E2B32E7FA00CB0BD7 /* humanSadState.swift */,
 				5CF2C5302B32E96800CB0BD7 /* feelingSad.swift */,
 				5C7879BB2B321807004C9DDD /* feelingHappyState.swift */,
@@ -80,6 +88,7 @@
 				BD7C83DA2B341548005DAA95 /* LastAnger.swift */,
 				BD7C83DC2B341691005DAA95 /* LastScared.swift */,
 				BD7C83DE2B3416E6005DAA95 /* LastHappy.swift */,
+				BDAA5F202B3424D1002ABFF8 /* LastSad.swift */,
 				5C7879AF2B31FC58004C9DDD /* Assets.xcassets */,
 				5C7879B12B31FC58004C9DDD /* Preview Content */,
 			);
@@ -165,13 +174,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C7879AE2B31FC57004C9DDD /* ContentView.swift in Sources */,
+				BDAA5F232B34264F002ABFF8 /* humanAngerState.swift in Sources */,
 				5C7879AC2B31FC57004C9DDD /* MaknoonApplictionApp.swift in Sources */,
 				5C7879BA2B3204B8004C9DDD /* humanHappyState.swift in Sources */,
 				BD7C83DB2B341548005DAA95 /* LastAnger.swift in Sources */,
 				5C7879BC2B321807004C9DDD /* feelingHappyState.swift in Sources */,
 				5CF2C52F2B32E7FA00CB0BD7 /* humanSadState.swift in Sources */,
 				BD7C83DF2B3416E6005DAA95 /* LastHappy.swift in Sources */,
+				BDAA5F252B342778002ABFF8 /* feelingAngerState.swift in Sources */,
 				5C6D508B2B334DD10030A604 /* exampleOfFeelingSad.swift in Sources */,
+				BDAA5F212B3424D1002ABFF8 /* LastSad.swift in Sources */,
 				BD7C83DD2B341691005DAA95 /* LastScared.swift in Sources */,
 				BD7C83D92B341210005DAA95 /* Home.swift in Sources */,
 				5CF2C5312B32E96800CB0BD7 /* feelingSad.swift in Sources */,

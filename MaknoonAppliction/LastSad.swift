@@ -1,5 +1,5 @@
 //
-//  LastHappy.swift
+//  LastSad.swift
 //  MaknoonAppliction
 //
 //  Created by Reyouf Alqahtani on 08/06/1445 AH.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 import AVFAudio
-struct  LastHappy: View {
+struct  LastSad: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Candy makes me happy"
+    @State private var spokenHappyWord: String = "Im sad because"
     @State private var activebutton = false
     var body: some View {
         ZStack{
@@ -17,13 +17,13 @@ struct  LastHappy: View {
                 .ignoresSafeArea()
             VStack{
                 ZStack{
-                    Rectangle()
-                        .foregroundColor(Color("lightPink"))
-                        .frame(width: 697, height: 600)   .cornerRadius(20)
+                Rectangle()
+                .foregroundColor(Color("lightPink"))
+                .frame(width: 697, height: 600)   .cornerRadius(20)
                         .rotationEffect(.degrees(-180))
                         .shadow(color: Color("Shadow"), radius: 2, x: 0, y: 2)
                     Image("Candy")
-                        .resizable() .foregroundColor(Color("DarkPurple"))
+                        .resizable() .foregroundColor(Color("purple"))
                         .frame(width: 400,height:400)
                         .offset(x:0,y:-30)
                         .cornerRadius(10)
@@ -45,7 +45,7 @@ struct  LastHappy: View {
                     }
                     
                     HStack{
-                        Text("Cnady makes me happy!")
+                        Text("Im sad because")
                             .font(.system(size: 50))
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)
@@ -58,6 +58,7 @@ struct  LastHappy: View {
                 })
                 {
                     ZStack{
+                        
                         Rectangle()
                             .foregroundColor(Color("lightPink"))
                             .frame(width: 180, height: 80)
@@ -79,5 +80,5 @@ struct  LastHappy: View {
         }}
 
 #Preview {
-    LastHappy()
+    LastSad()
 }

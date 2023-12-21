@@ -4,8 +4,6 @@
 //
 //  Created by Reyouf Alqahtani on 08/06/1445 AH.
 //
-
-
 import SwiftUI
 import AVFAudio
 struct LastScared: View {
@@ -76,8 +74,7 @@ struct LastScared: View {
             .padding(.bottom,-50)
         }
         .fullScreenCover(isPresented:$activebutton) {
-            Home()
-        }}
+            Home()}}
     func speakText(){
             let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
             speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
