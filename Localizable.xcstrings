@@ -1,5 +1,433 @@
 {
   "sourceLanguage" : "en",
-  "strings" : {},
+  "strings" : {
+    "an image of sad face" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة لوجه حزين"
+          }
+        }
+      }
+    },
+    "an image of smiley face" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة وجه مبتسم"
+          }
+        }
+      }
+    },
+    "Angry" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غاضب"
+          }
+        }
+      }
+    },
+    "Angry Face" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجه غاضب"
+          }
+        }
+      }
+    },
+    "Angry kid" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طفل غاضب"
+          }
+        }
+      }
+    },
+    "Angry Kid" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طفل غاضب "
+          }
+        }
+      }
+    },
+    "Cnady makes me happy!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحلوى تجعلني سعيدا!"
+          }
+        }
+      }
+    },
+    "happy" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سعيد"
+          }
+        }
+      }
+    },
+    "Happy" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سعيد"
+          }
+        }
+      }
+    },
+    "Happy Kid" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طفل سعيد"
+          }
+        }
+      }
+    },
+    "I am Angry" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انا غاضب"
+          }
+        }
+      }
+    },
+    "I am Angry " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انا غاضب"
+          }
+        }
+      }
+    },
+    "I am sad" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنا حزينة"
+          }
+        }
+      }
+    },
+    "I feel happy" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اشعر بالسعادة"
+          }
+        }
+      }
+    },
+    "I felt down I am sad" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شعرت بالإحباط وأنا حزين"
+          }
+        }
+      }
+    },
+    "Im angry because.. !" : {
+
+    },
+    "Im sad because" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنا حزين لأن"
+          }
+        }
+      }
+    },
+    "Im scared because.. !" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنا خائفة لأن..!"
+          }
+        }
+      }
+    },
+    "Image of a A scared child" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة طفل خائف"
+          }
+        }
+      }
+    },
+    "Image of a An angry child" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة طفل غاضب"
+          }
+        }
+      }
+    },
+    "Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة طفل سعيد، ذو بشرة ناعمة بلون القمح، يرتدي ثوبًا سعوديًا أبيض ناعمًا. تبدو بشرة الطفل دافئة عند اللمس، وتتألق عيونه بالفرح. ابتسامة كبيرة ومعدية تضيء وجوههم، وتشاركهم السعادة في الداخل"
+          }
+        }
+      }
+    },
+    "Image of an angry child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة طفل غاضب ذو بشرة ناعمة قمعية اللون، يرتدي ثوباً سعودياً أبيض ناعماً. تبدو بشرة الطفل دافئة عند اللمس، وتتألق عيونه بالفرح. ابتسامة كبيرة ومعدية تضيء وجوههم، وتشاركهم السعادة في الداخل"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مفتاه"
+          }
+        }
+      }
+    },
+    "mmm" : {
+
+    },
+    "My emotions" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاعري"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي"
+          }
+        }
+      }
+    },
+    "phrase" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جملة"
+          }
+        }
+      }
+    },
+    "Sad" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حزن"
+          }
+        }
+      }
+    },
+    "sad Face" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجه حزين"
+          }
+        }
+      }
+    },
+    "Sad Kid" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طفل حزين"
+          }
+        }
+      }
+    },
+    "sad phrase I felt down I am sad" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عبارة حزينة شعرت بالإحباط أنا حزين"
+          }
+        }
+      }
+    },
+    "Scared" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خائف"
+          }
+        }
+      }
+    },
+    "Scared child" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طفل خائف"
+          }
+        }
+      }
+    },
+    "smiley Face" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وجه مبتسم"
+          }
+        }
+      }
+    },
+    "Speaker" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مكبر الصوت"
+          }
+        }
+      }
+    },
+    "Tap to hear the phrase 'I am Angry'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لسماع عبارة \"أنا غاضب\""
+          }
+        }
+      }
+    },
+    "Tap to hear the phrase 'I am sad'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لسماع عبارة \"أنا حزين\""
+          }
+        }
+      }
+    },
+    "Tap to hear the phrase 'I felt down I am sad'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لسماع عبارة \"شعرت بالإحباط وأنا حزين\""
+          }
+        }
+      }
+    },
+    "Tap to hear the word 'Angry'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لسماع كلمة \"غاضب\""
+          }
+        }
+      }
+    },
+    "Tap to hear the word 'happy'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لسماع كلمة \"سعيد\""
+          }
+        }
+      }
+    },
+    "Tap to hear the word 'Ifeel happy'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لسماع كلمة \"أشعر بالسعادة\""
+          }
+        }
+      }
+    },
+    "Tap to hear the word 'Sad'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر لسماع كلمة \"حزين\""
+          }
+        }
+      }
+    },
+    "Tap to move to the next page" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انقر للانتقال إلى الصفحة التالية"
+          }
+        }
+      }
+    },
+    "word" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمة"
+          }
+        }
+      }
+    }
+  },
   "version" : "1.0"
 }

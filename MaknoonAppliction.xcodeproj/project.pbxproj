@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C669C6E2B34320400C00C76 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5C669C6D2B34320400C00C76 /* Localizable.xcstrings */; };
 		5C6D508B2B334DD10030A604 /* exampleOfFeelingSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6D508A2B334DD10030A604 /* exampleOfFeelingSad.swift */; };
 		5C7879AC2B31FC57004C9DDD /* MaknoonApplictionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7879AB2B31FC57004C9DDD /* MaknoonApplictionApp.swift */; };
 		5C7879AE2B31FC57004C9DDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7879AD2B31FC57004C9DDD /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C669C6D2B34320400C00C76 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		5C6D508A2B334DD10030A604 /* exampleOfFeelingSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleOfFeelingSad.swift; sourceTree = "<group>"; };
 		5C7879A82B31FC57004C9DDD /* MaknoonAppliction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaknoonAppliction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7879AB2B31FC57004C9DDD /* MaknoonApplictionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaknoonApplictionApp.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		5C78799F2B31FC57004C9DDD = {
 			isa = PBXGroup;
 			children = (
+				5C669C6D2B34320400C00C76 /* Localizable.xcstrings */,
 				5C7879AA2B31FC57004C9DDD /* MaknoonAppliction */,
 				5C7879A92B31FC57004C9DDD /* Products */,
 			);
@@ -145,6 +148,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 5C78799F2B31FC57004C9DDD;
 			productRefGroup = 5C7879A92B31FC57004C9DDD /* Products */;
@@ -163,6 +167,7 @@
 			files = (
 				5C7879B32B31FC58004C9DDD /* Preview Assets.xcassets in Resources */,
 				5C7879B02B31FC58004C9DDD /* Assets.xcassets in Resources */,
+				5C669C6E2B34320400C00C76 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
