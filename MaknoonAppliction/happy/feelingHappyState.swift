@@ -1,16 +1,18 @@
 //
-//  humanSadState.swift
+//  feelingHappyState.swift
 //  MaknoonAppliction
 //
-//  Created by maryam on 07/06/1445 AH.
+//  Created by maryam on 06/06/1445 AH.
 //
 
 import SwiftUI
 import AVFAudio
 
-struct humanSadState: View {
+struct feelingHappyState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Sad"
+   
+    @State private var spokenHappyWord: String = NSLocalizedString("I am happy", comment: "Default I am happy")
+
     @State private var isButtonNextTapped = false
     
     var body: some View {
@@ -30,39 +32,36 @@ struct humanSadState: View {
                     }){
                         Image(systemName: "speaker.wave.2")
                             .font(.system(size: 40)) // Adjust the size of the icon
-                                .foregroundColor(Color("purple"))
+                            .foregroundColor(Color("purple"))
                                 .padding(.trailing,500)
                                 .accessibility(label: Text("Speaker"))
-                                .accessibility(hint: Text("Tap to hear the word 'Sad'"))
+                                .accessibility(hint: Text("Tap to hear the word 'Ifeel happy'"))
                     }
                     
                     Image("happyKid")
-                    .accessibility(label: Text("Sad Kid"))
-                    //description
-                    .accessibility(hint: Text("Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"))
-                    Spacer()
-                    .frame(height:0)
                     
+                        .cornerRadius(85)
+                        .accessibility(label: Text("smiley Face"))
+                        .accessibility(hint: Text("an image of smiley face"))
+                    Spacer()
+                    .frame(height:55)
                     HStack(spacing: 20) {
                         
                         
-                        Text("Sad")
+                        Text("I am happy")
+                            .accessibility(label: Text("phrase"))
+                            .accessibility(hint: Text("I feel happy"))
                             .font(.system(size: 72))
                             .fontWeight(.bold)
-                            .accessibility(label: Text("word"))
-                            .accessibility(hint: Text("happy"))
                             .foregroundColor(Color("purple"))
+                         
                         
-                        Image("sadIcon")
-                            .resizable()
-                            .frame(width:61,height:59)
-                            .accessibility(label: Text("sad Face"))
-                            
+                       
                     }
                  
                     
                 }
-               
+               // ZStack{
                     Button(action:{
                         isButtonNextTapped = true
                         print("next")
@@ -76,22 +75,20 @@ struct humanSadState: View {
                                 .cornerRadius(58)
                             
                             
-                            
-                            
                             Image(systemName:"arrowshape.turn.up.backward.fill")
                                 .resizable()
                                 .frame(width:22,height:23)
                                 .foregroundColor(Color("purple"))
-                              
                         }
 
                 }
-                .accessibility(label: Text("Next"))
-                .accessibility(hint: Text("Tap to move to the next page"))
                 .padding(.top,675)
                 .padding(.trailing,900)
-                .fullScreenCover(isPresented:$isButtonNextTapped) {
-                   feelingSad()
+                .accessibility(label: Text("Next"))
+                .accessibility(hint: Text("Tap to move to the next page"))
+                // move to reyof page
+            .fullScreenCover(isPresented:$isButtonNextTapped) {
+                   LastHappy()
                 }
                 
             }
@@ -108,7 +105,6 @@ struct humanSadState: View {
     }
 }
 
-
 #Preview {
-    humanSadState()
+    feelingHappyState()
 }

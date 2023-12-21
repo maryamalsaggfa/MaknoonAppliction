@@ -11,7 +11,8 @@ import AVFoundation
 // voiceover hint .accessibility(hint: Text("Tap to hear a friendly greeting"))
 struct humanHappyState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Happy"
+    @State private var spokenHappyWord: String = NSLocalizedString("Happy", comment: "Default happy word")
+
     @State private var isButtonNextTapped = false
     
     var body: some View {
@@ -37,13 +38,15 @@ struct humanHappyState: View {
                                 .accessibility(hint: Text("Tap to hear the word 'happy'"))
                     }
                     
-                    Image("happyKid")
+                    Image("HappyIcon")
+                        .resizable()
+                        .frame(width:400,height:424)
                     .accessibility(label: Text("Happy Kid"))
                     .accessibility(hint: Text("Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"))
                     Spacer()
                     .frame(height:0)
                     
-                    HStack(spacing: 20) {
+                    HStack() {
                         
                         
                         Text("Happy")
@@ -52,11 +55,8 @@ struct humanHappyState: View {
                             .accessibility(label: Text("word"))
                             .accessibility(hint: Text("happy"))
                             .foregroundColor(Color("purple"))
-                        
-                        Image("happyFace")
-                            .resizable()
-                            .frame(width:61,height:59)
-                            .accessibility(label: Text("smiley Face"))
+                          
+             
                             
                     }
                  
@@ -103,7 +103,13 @@ struct humanHappyState: View {
     }
     func speakText(){
         let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
-        speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        let currentLanguage = Locale.current.languageCode ?? "en"
+        if currentLanguage == "ar" {
+               // Use Arabic voice for Arabic localization
+               speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed
+        } else {
+            speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        }
         speechSynthesizer.speak(speechUtterance)
     }
 }

@@ -25,7 +25,7 @@ struct  LastHappy: View {
                     Image("Candy")
                         .resizable() .foregroundColor(Color("DarkPurple"))
                         .frame(width: 400,height:400)
-                        .offset(x:0,y:-30)
+                      // .offset(x:0,y:10)
                         .cornerRadius(10)
                         .accessibility(label: Text("Sad Kid"))
                     //description
