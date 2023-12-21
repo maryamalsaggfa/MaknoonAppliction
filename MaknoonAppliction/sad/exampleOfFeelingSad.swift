@@ -10,7 +10,9 @@ import AVFAudio
 
 struct exampleOfFeelingSad: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "I felt down I am sad"
+    
+    @State private var spokenHappyWord: String = NSLocalizedString("I lost the race, I'm sad", comment: "Default I lost the race, I'm sad")
+
     @State private var isButtonNextTapped = false
     
     var body: some View {
@@ -36,27 +38,25 @@ struct exampleOfFeelingSad: View {
                                 .accessibility(hint: Text("Tap to hear the phrase 'I felt down I am sad'"))
                     }
                     
-                    Image("happyKid")
+                    Image("crying")
                     .accessibility(label: Text("Sad Kid"))
                     //description
-                    .accessibility(hint: Text("Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"))
+                    .accessibility(hint: Text("In the image, there's a young child wearing a loose Saudi thaub, a traditional outfit. The child looks upset, possibly after a race, with a sticker on the thaub holding event information. The thaub is a comfortable and unique garment, and the sticker is like a badge from the race, telling a story. The child's emotions are evident in the picture, reflecting a moment of feeling sad or disappointed"))
                     Spacer()
                     .frame(height:0)
                     
-                    HStack(spacing: 20) {
+                    HStack() {
                         
                         
-                        Text("I felt down I am sad")
+                        Text("I lost the race, I'm sad")
+                            .padding(.top,30)
                             .font(.system(size: 60))
                             .fontWeight(.bold)
                             .accessibility(label: Text("phrase"))
                             .accessibility(hint: Text("sad phrase I felt down I am sad"))
                             .foregroundColor(Color("purple"))
                         
-                        Image("sadIcon")
-                            .resizable()
-                            .frame(width:61,height:59)
-                            .accessibility(label: Text("sad Face"))
+                        
                             
                     }
                  
@@ -92,7 +92,7 @@ struct exampleOfFeelingSad: View {
                 .accessibility(label: Text("Next"))
                 .accessibility(hint: Text("Tap to move to the next page"))
                 .fullScreenCover(isPresented:$isButtonNextTapped) {
-                    //feelingHappyState()
+                    Home()
                 }
                 
             }
@@ -104,7 +104,13 @@ struct exampleOfFeelingSad: View {
     }
     func speakText(){
         let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
-        speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        let currentLanguage = Locale.current.languageCode ?? "en"
+        if currentLanguage == "ar" {
+               // Use Arabic voice for Arabic localization
+               speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed
+        } else {
+            speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        }
         speechSynthesizer.speak(speechUtterance)
     }
 }

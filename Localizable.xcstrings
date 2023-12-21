@@ -2,6 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "an image of sad face" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -22,6 +23,7 @@
       }
     },
     "Angry" : {
+      "comment" : "Default Angry",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -32,6 +34,7 @@
       }
     },
     "Angry Face" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -61,6 +64,17 @@
         }
       }
     },
+    "Candy makes me happy" : {
+      "comment" : "Default Candy makes me happy",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الحلوى تجعلني سعيد"
+          }
+        }
+      }
+    },
     "Cnady makes me happy!" : {
       "localizations" : {
         "ar" : {
@@ -82,6 +96,7 @@
       }
     },
     "Happy" : {
+      "comment" : "Default happy word",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -102,6 +117,7 @@
       }
     },
     "I am Angry" : {
+      "comment" : "I am Angry",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -121,7 +137,19 @@
         }
       }
     },
+    "I am happy" : {
+      "comment" : "Default I am happy",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انا سعيد"
+          }
+        }
+      }
+    },
     "I am sad" : {
+      "comment" : "Default I am sad",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -142,11 +170,23 @@
       }
     },
     "I felt down I am sad" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "شعرت بالإحباط وأنا حزين"
+          }
+        }
+      }
+    },
+    "I lost the race, I'm sad" : {
+      "comment" : "Default I lost the race, I'm sad",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خسرت السباق لهذا انا حزين"
           }
         }
       }
@@ -185,6 +225,7 @@
       }
     },
     "Image of a An angry child" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -205,11 +246,92 @@
       }
     },
     "Image of an angry child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "صورة طفل غاضب ذو بشرة ناعمة قمعية اللون، يرتدي ثوباً سعودياً أبيض ناعماً. تبدو بشرة الطفل دافئة عند اللمس، وتتألق عيونه بالفرح. ابتسامة كبيرة ومعدية تضيء وجوههم، وتشاركهم السعادة في الداخل"
+          }
+        }
+      }
+    },
+    "In the image, there's a young child wearing a loose Saudi thaub, a traditional outfit. The child looks upset, possibly after a race, with a sticker on the thaub holding event information. The thaub is a comfortable and unique garment, and the sticker is like a badge from the race, telling a story. The child's emotions are evident in the picture, reflecting a moment of feeling sad or disappointed" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يظهر في الصورة طفل صغير يرتدي الثوب السعودي الفضفاض، وهو الزي التقليدي. يبدو الطفل منزعجًا، ربما بعد السباق، مع وجود ملصق على الثوب يحمل معلومات الحدث. الثوب هو لباس مريح وفريد من نوعه، والملصق يشبه شارة السباق، يحكي قصة. وتتجلى عواطف الطفل في الصورة، وتعكس لحظة شعوره بالحزن أو خيبة الأمل"
+          }
+        }
+      }
+    },
+    "In this image, a child is depicted wearing a traditional Saudi thaub in a bright shade of white. The child's facial expression suggests a profound sense of sadness, with furrowed brows and clear tears streaming down their face. The sadness is evident in their eyes, which are full of tears. The emotional intensity is conveyed through the clear depiction of numerous tears on the child's face" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يظهر في هذه الصورة طفل يرتدي الثوب السعودي التقليدي بلون أبيض ناصع. تشير تعبيرات وجه الطفل إلى شعور عميق بالحزن، مع تجعد الحواجب والدموع الواضحة التي تتدفق على وجهه. ويظهر الحزن في عيونهم المليئة بالدموع. يتم نقل الشدة العاطفية من خلال التصوير الواضح للدموع العديدة على وجه الطفل"
+          }
+        }
+      }
+    },
+    "In this image, there's a cartoon kid expressing strong emotions with a serious demeanor. The child is wearing a vivid blue shirt with noticeable white lines, and their hair appears slightly disheveled, reflecting a sense of frustration or anger. The expression on the kid's face suggests intense feelings of displeasure or irritation. The shades of blue in the shirt may evoke a stormy atmosphere, and the white lines contribute to the overall portrayal of heightened emotions. " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في هذه الصورة، يوجد طفل كرتوني يعبر عن مشاعر قوية بسلوك جدي. يرتدي الطفل قميصاً أزرقاً زاهياً مع خطوط بيضاء ملحوظة، ويبدو شعره أشعثاً قليلاً، مما يعكس شعوراً بالإحباط أو الغضب. التعبير على وجه الطفل يوحي بمشاعر شديدة من الاستياء أو الانزعاج. قد تثير ظلال اللون الأزرق في القميص جوًا عاصفًا، وتساهم الخطوط البيضاء في التصوير العام للمشاعر المتصاعدة."
+          }
+        }
+      }
+    },
+    "In this image, there's a depiction of a child in a white thaub, conveying strong emotions of anger. The child's facial features are intense, with furrowed brows and an open mouth, indicating frustration. Wrinkles on the face emphasize the depth of the emotion. The child is holding a toy with both hands, perhaps gripping it tightly in response to their anger" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في هذه الصورة، هناك تصوير لطفل يرتدي الثوب الأبيض، وينقل مشاعر الغضب القوية. ملامح وجه الطفل حادة، مع حواجب مجعدة وفم مفتوح، مما يدل على الإحباط. تؤكد التجاعيد الموجودة على الوجه على عمق العاطفة. يمسك الطفل بلعبة بكلتا يديه، وربما يمسكها بقوة رداً على غضبه"
+          }
+        }
+      }
+    },
+    "In this image, there's a depiction of a child wearing a Saudi thawb and a white turban. The child's facial expression suggests anger, with furrowed brows and a serious face expression." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في هذه الصورة رسم لطفل يرتدي ثوباً سعودياً وعمامة بيضاء. تعبيرات وجه الطفل توحي بالغضب، مع تجعد الحواجب وتعبيرات الوجه الجدية."
+          }
+        }
+      }
+    },
+    "In this image, there's a young child wearing a Saudi thaub and a red Shemagh, which is a traditional headscarf. The child is beaming with happiness, and you can hear the joy in their big smile, revealing clear teeth. The thaub is likely a bright white, and the Shemagh is neatly draped. In the child's hand, there's candy they're holding" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في هذه الصورة طفل صغير يرتدي الثوب السعودي والشماغ الأحمر وهو غطاء الرأس التقليدي. يبتسم الطفل بالسعادة، ويمكنك سماع الفرحة في ابتسامته الكبيرة التي تكشف عن أسنان واضحة. ومن المرجح أن يكون الثوب أبيض ناصع، والشماغ ملفوف بشكل أنيق. في يد الطفل، هناك حلوى يحملونها"
+          }
+        }
+      }
+    },
+    "In this picture, there's a cartoon kid radiating joy with a bright smile on their face. The kid is wearing a vibrant blue shirt adorned with cheerful white lines, and their hair has a playful, tousled look. The expression on the kid's face exudes happiness and excitement. The shades of blue in the shirt bring to mind a clear, sunny sky, and the white lines on the shirt add a delightful touch, resembling little bursts of happiness. Overall, the image captures a moment of pure joy and positive energy." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في هذه الصورة، هناك طفل كرتوني يشع الفرح بابتسامة مشرقة على وجهه. يرتدي الطفل قميصًا أزرقًا نابضًا بالحياة مزينًا بخطوط بيضاء مبهجة، ويتمتع شعره بمظهر مرح وأشعث. التعبير على وجه الطفل ينضح بالسعادة والإثارة. ظلال اللون الأزرق في القميص تذكرنا بسماء صافية مشمسة، وتضفي الخطوط البيضاء على القميص لمسة مبهجة، تشبه رشقات صغيرة من السعادة. بشكل عام، تلتقط الصورة لحظة من الفرح الخالص والطاقة الإيجابية."
+          }
+        }
+      }
+    },
+    "In this picture, there's a cartoon kid who seems to be feeling a bit sad. The kid is wearing a blue shirt with white lines on it, and their hair is a bit messy. The expression on the kid's face shows that they might be feeling a bit down. The shades of blue in the shirt might remind you of a rainy day. The white lines on the shirt are like little paths, giving the shirt a special touch." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في هذه الصورة، يوجد طفل كرتوني يبدو أنه يشعر بالحزن قليلاً. يرتدي الطفل قميصًا أزرق عليه خطوط بيضاء، وشعره فوضوي بعض الشيء. يظهر التعبير على وجه الطفل أنه قد يشعر بالإحباط قليلاً. قد تذكرك ظلال اللون الأزرق الموجودة في القميص بيوم ممطر. الخطوط البيضاء الموجودة على القميص تشبه الممرات الصغيرة، مما يمنح القميص لمسة خاصة."
           }
         }
       }
@@ -258,6 +380,17 @@
         }
       }
     },
+    "sad" : {
+      "comment" : "Default sad word",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حزن"
+          }
+        }
+      }
+    },
     "Sad" : {
       "localizations" : {
         "ar" : {
@@ -269,11 +402,22 @@
       }
     },
     "sad Face" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "وجه حزين"
+          }
+        }
+      }
+    },
+    "sad kid" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طفل حزين"
           }
         }
       }
@@ -427,6 +571,9 @@
           }
         }
       }
+    },
+    "مكنون" : {
+
     }
   },
   "version" : "1.0"

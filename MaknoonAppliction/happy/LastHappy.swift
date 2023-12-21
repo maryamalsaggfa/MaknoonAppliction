@@ -9,7 +9,8 @@ import SwiftUI
 import AVFAudio
 struct  LastHappy: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Candy makes me happy"
+    
+    @State private var spokenHappyWord: String = NSLocalizedString("Candy makes me happy", comment: "Default Candy makes me happy")
     @State private var activebutton = false
     var body: some View {
         ZStack{
@@ -25,11 +26,11 @@ struct  LastHappy: View {
                     Image("Candy")
                         .resizable() .foregroundColor(Color("DarkPurple"))
                         .frame(width: 400,height:400)
-                      // .offset(x:0,y:10)
+                    // .offset(x:0,y:10)
                         .cornerRadius(10)
                         .accessibility(label: Text("Sad Kid"))
                     //description
-                        .accessibility(hint: Text("Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"))
+                        .accessibility(hint: Text("In this image, there's a young child wearing a Saudi thaub and a red Shemagh, which is a traditional headscarf. The child is beaming with happiness, and you can hear the joy in their big smile, revealing clear teeth. The thaub is likely a bright white, and the Shemagh is neatly draped. In the child's hand, there's candy they're holding"))
                     HStack{
                         Button(action:{
                             speakText()
@@ -51,7 +52,7 @@ struct  LastHappy: View {
                             .multilineTextAlignment(.center)
                             .offset(x:5,y:237)
                             .foregroundColor(Color("purple"))
-                        }  }
+                    }  }
                 .padding(10)
                 Button(action: {
                     activebutton = true
@@ -73,10 +74,17 @@ struct  LastHappy: View {
         }}
     
     func speakText(){
-            let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
+        let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
+        let currentLanguage = Locale.current.languageCode ?? "en"
+        if currentLanguage == "ar" {
+               // Use Arabic voice for Arabic localization
+               speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed
+        } else {
             speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-            speechSynthesizer.speak(speechUtterance)
-        }}
+        }
+        speechSynthesizer.speak(speechUtterance)
+    }
+}
 
 #Preview {
     LastHappy()

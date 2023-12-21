@@ -42,7 +42,7 @@ struct humanHappyState: View {
                         .resizable()
                         .frame(width:400,height:424)
                     .accessibility(label: Text("Happy Kid"))
-                    .accessibility(hint: Text("Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"))
+                    .accessibility(hint: Text("In this picture, there's a cartoon kid radiating joy with a bright smile on their face. The kid is wearing a vibrant blue shirt adorned with cheerful white lines, and their hair has a playful, tousled look. The expression on the kid's face exudes happiness and excitement. The shades of blue in the shirt bring to mind a clear, sunny sky, and the white lines on the shirt add a delightful touch, resembling little bursts of happiness. Overall, the image captures a moment of pure joy and positive energy."))
                     Spacer()
                     .frame(height:0)
                     

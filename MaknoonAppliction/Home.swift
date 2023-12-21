@@ -128,15 +128,15 @@ struct Home: View {
                    //
           }
           .minimumScaleFactor(sizecategory.customMinScaleFactor)
-//          .fullScreenCover(isPresented:$activebutton) {
-//             HStory()
-//          }
-//          .fullScreenCover(isPresented:$Angerbutton) {
-//         AngerPage()
-//          }
-//          .fullScreenCover(isPresented:$Sadbutton) {
-//                 SadPage()
-//                  }
+          .fullScreenCover(isPresented:$activebutton) {
+            humanHappyState()
+       }
+        .fullScreenCover(isPresented:$Angerbutton) {
+   humanAngerState()
+     }
+          .fullScreenCover(isPresented:$Sadbutton) {
+                 humanSadState()
+                  }
 //                  .fullScreenCover(isPresented:$Sadbutton) {
 //                 ScaredPage()
 //                  }

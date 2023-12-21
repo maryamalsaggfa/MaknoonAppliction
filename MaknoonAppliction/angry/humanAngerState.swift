@@ -8,7 +8,8 @@ import SwiftUI
 import AVFoundation
 struct humanAngerState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Angry"
+    @State private var spokenHappyWord: String = NSLocalizedString("Angry", comment: "Default Angry")
+
     @State private var isButtonNextTapped = false
     
     var body: some View {
@@ -34,14 +35,16 @@ struct humanAngerState: View {
                                 .accessibility(hint: Text("Tap to hear the word 'Angry'"))
                     }
                     
-                    Image("happyKid")
+                    Image("AngryIcon")
+                        .resizable()
+                        .frame(width:400,height:424)
                     .accessibility(label: Text("Angry kid"))
                     //add the discription
-                    .accessibility(hint: Text("Image of an angry child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"))
+                    .accessibility(hint: Text("In this image, there's a cartoon kid expressing strong emotions with a serious demeanor. The child is wearing a vivid blue shirt with noticeable white lines, and their hair appears slightly disheveled, reflecting a sense of frustration or anger. The expression on the kid's face suggests intense feelings of displeasure or irritation. The shades of blue in the shirt may evoke a stormy atmosphere, and the white lines contribute to the overall portrayal of heightened emotions. "))
                     Spacer()
                     .frame(height:0)
                     
-                    HStack(spacing: 20) {
+                    HStack() {
                         
                         
                         Text("Angry")
@@ -51,10 +54,7 @@ struct humanAngerState: View {
                             .accessibility(hint: Text("Angry"))
                             .foregroundColor(Color("purple"))
                         
-                        Image("happyFace")
-                            .resizable()
-                            .frame(width:61,height:59)
-                            .accessibility(label: Text("Angry Face"))
+                     
                             
                     }
                  
@@ -101,7 +101,13 @@ struct humanAngerState: View {
     }
     func speakText(){
         let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
-        speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        let currentLanguage = Locale.current.languageCode ?? "en"
+        if currentLanguage == "ar" {
+               // Use Arabic voice for Arabic localization
+               speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed
+        } else {
+            speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        }
         speechSynthesizer.speak(speechUtterance)
     }
 }

@@ -30,7 +30,7 @@ struct LastAnger: View {
                         .cornerRadius(10)
                         .accessibility(label: Text("Angry Kid"))
                     //description
-                        .accessibility(hint: Text("Image of a An angry child"))
+                        .accessibility(hint: Text("In this image, there's a depiction of a child in a white thaub, conveying strong emotions of anger. The child's facial features are intense, with furrowed brows and an open mouth, indicating frustration. Wrinkles on the face emphasize the depth of the emotion. The child is holding a toy with both hands, perhaps gripping it tightly in response to their anger"))
                     // Add more to the discription
                     HStack{
                         Button(action:{

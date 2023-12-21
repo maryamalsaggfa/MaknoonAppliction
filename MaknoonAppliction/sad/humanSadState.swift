@@ -42,7 +42,7 @@ struct humanSadState: View {
                         .frame(width:400,height:424)
                     .accessibility(label: Text("Sad Kid"))
                     //description
-                    .accessibility(hint: Text("Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"))
+                    .accessibility(hint: Text("In this picture, there's a cartoon kid who seems to be feeling a bit sad. The kid is wearing a blue shirt with white lines on it, and their hair is a bit messy. The expression on the kid's face shows that they might be feeling a bit down. The shades of blue in the shirt might remind you of a rainy day. The white lines on the shirt are like little paths, giving the shirt a special touch."))
                     Spacer()
                     .frame(height:0)
                     

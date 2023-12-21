@@ -100,7 +100,13 @@ struct feelingHappyState: View {
     }
     func speakText(){
         let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
-        speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        let currentLanguage = Locale.current.languageCode ?? "en"
+        if currentLanguage == "ar" {
+               // Use Arabic voice for Arabic localization
+               speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed
+        } else {
+            speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
+        }
         speechSynthesizer.speak(speechUtterance)
     }
 }
