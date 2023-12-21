@@ -16,6 +16,10 @@
 		5C7879BC2B321807004C9DDD /* feelingHappyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7879BB2B321807004C9DDD /* feelingHappyState.swift */; };
 		5CF2C52F2B32E7FA00CB0BD7 /* humanSadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C52E2B32E7FA00CB0BD7 /* humanSadState.swift */; };
 		5CF2C5312B32E96800CB0BD7 /* feelingSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2C5302B32E96800CB0BD7 /* feelingSad.swift */; };
+		BD7C83D92B341210005DAA95 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83D82B341210005DAA95 /* Home.swift */; };
+		BD7C83DB2B341548005DAA95 /* LastAnger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83DA2B341548005DAA95 /* LastAnger.swift */; };
+		BD7C83DD2B341691005DAA95 /* LastScared.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83DC2B341691005DAA95 /* LastScared.swift */; };
+		BD7C83DF2B3416E6005DAA95 /* LastHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C83DE2B3416E6005DAA95 /* LastHappy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		5C7879BB2B321807004C9DDD /* feelingHappyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingHappyState.swift; sourceTree = "<group>"; };
 		5CF2C52E2B32E7FA00CB0BD7 /* humanSadState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humanSadState.swift; sourceTree = "<group>"; };
 		5CF2C5302B32E96800CB0BD7 /* feelingSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingSad.swift; sourceTree = "<group>"; };
+		BD7C83D82B341210005DAA95 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BD7C83DA2B341548005DAA95 /* LastAnger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastAnger.swift; sourceTree = "<group>"; };
+		BD7C83DC2B341691005DAA95 /* LastScared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastScared.swift; sourceTree = "<group>"; };
+		BD7C83DE2B3416E6005DAA95 /* LastHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastHappy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,10 @@
 				5CF2C5302B32E96800CB0BD7 /* feelingSad.swift */,
 				5C7879BB2B321807004C9DDD /* feelingHappyState.swift */,
 				5C6D508A2B334DD10030A604 /* exampleOfFeelingSad.swift */,
+				BD7C83D82B341210005DAA95 /* Home.swift */,
+				BD7C83DA2B341548005DAA95 /* LastAnger.swift */,
+				BD7C83DC2B341691005DAA95 /* LastScared.swift */,
+				BD7C83DE2B3416E6005DAA95 /* LastHappy.swift */,
 				5C7879AF2B31FC58004C9DDD /* Assets.xcassets */,
 				5C7879B12B31FC58004C9DDD /* Preview Content */,
 			);
@@ -155,9 +167,13 @@
 				5C7879AE2B31FC57004C9DDD /* ContentView.swift in Sources */,
 				5C7879AC2B31FC57004C9DDD /* MaknoonApplictionApp.swift in Sources */,
 				5C7879BA2B3204B8004C9DDD /* humanHappyState.swift in Sources */,
+				BD7C83DB2B341548005DAA95 /* LastAnger.swift in Sources */,
 				5C7879BC2B321807004C9DDD /* feelingHappyState.swift in Sources */,
 				5CF2C52F2B32E7FA00CB0BD7 /* humanSadState.swift in Sources */,
+				BD7C83DF2B3416E6005DAA95 /* LastHappy.swift in Sources */,
 				5C6D508B2B334DD10030A604 /* exampleOfFeelingSad.swift in Sources */,
+				BD7C83DD2B341691005DAA95 /* LastScared.swift in Sources */,
+				BD7C83D92B341210005DAA95 /* Home.swift in Sources */,
 				5CF2C5312B32E96800CB0BD7 /* feelingSad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
