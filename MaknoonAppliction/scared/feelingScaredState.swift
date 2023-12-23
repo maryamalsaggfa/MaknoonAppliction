@@ -1,18 +1,14 @@
 //
-//  feelingHappyState.swift
+//  feelingAngerState.swift
 //  MaknoonAppliction
 //
-//  Created by maryam on 06/06/1445 AH.
+//  Created by Reyouf Alqahtani on 08/06/1445 AH.
 //
-
 import SwiftUI
 import AVFAudio
-
-struct feelingHappyState: View {
+struct  feelingScaredState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-   
-    @State private var spokenHappyWord: String = NSLocalizedString("I am happy", comment: "Default I am happy")
-
+    @State private var spokenHappyWord: String = NSLocalizedString("I am Scared", comment: "I am Scared")
     @State private var isButtonNextTapped = false
     
     var body: some View {
@@ -24,6 +20,7 @@ struct feelingHappyState: View {
                     .foregroundColor(Color("lightPink"))
                     .cornerRadius(58)
                     .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
+                    
                 VStack{
                     Button(action:{
                         speakText()
@@ -35,36 +32,32 @@ struct feelingHappyState: View {
                             .fontWeight(.bold)
                             .foregroundColor(Color("purple"))
                                 .padding(.trailing,500)
-                                .offset(x:0,y:13)
                                 .accessibility(label: Text("Speaker"))
-                                .accessibility(hint: Text("Tap to hear the word 'I'm happy'"))
+                                .accessibility(hint: Text("Tap to hear the phrase 'I am Scared'"))
                     }
                     
-                    Image("happyKid")
+                    Image("LastScared")
                         .resizable()
                         .frame(width:362,height: 362)
-                        
-                        .accessibility(label: Text("happy kid"))
-                        .accessibility(hint: Text("In this image, a little child dons a bright white thobe, radiating happiness. The child's face is adorned with a beaming smile, and his eyes sparkle with delight. The overall expression exudes pure joy and contentment. "))
+                        .accessibility(label: Text("Scared kid"))
+                        .accessibility(hint: Text("In this image, a child is dressed in a Saudi thawb and a white turban, and their facial expression conveys a sense of fear. The child's features show signs of anxiety, with widened eyes and a serious expression reflecting a state of being scared or frightened."))
                     Spacer()
-                    .frame(height:45)
+                    .frame(height:0)
                     HStack() {
                         
                         
-                        Text("I am happy")
+                        Text("I am Scared")
                             .accessibility(label: Text("phrase"))
-                            .accessibility(hint: Text("I feel happy"))
+                            .accessibility(hint: Text("I am Scared"))
                             .font(.system(size: 50))
                             .fontWeight(.bold)
                             .foregroundColor(Color("purple"))
-                         
-                        
-                       
+                            .padding(.top,30)
                     }
                  
                     
                 }
-               // ZStack{
+               
                     Button(action:{
                         isButtonNextTapped = true
                         print("next")
@@ -90,7 +83,7 @@ struct feelingHappyState: View {
                 .accessibility(hint: Text("Tap to move to the next page"))
                 // move to reyof page
             .fullScreenCover(isPresented:$isButtonNextTapped) {
-                   LastHappy()
+                   LastScared()
                 }
                 
             }
@@ -113,6 +106,7 @@ struct feelingHappyState: View {
     }
 }
 
+
 #Preview {
-    feelingHappyState()
+    feelingScaredState()
 }

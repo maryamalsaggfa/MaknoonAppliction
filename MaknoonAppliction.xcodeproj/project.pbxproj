@@ -25,6 +25,8 @@
 		BDAA5F212B3424D1002ABFF8 /* LastSad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F202B3424D1002ABFF8 /* LastSad.swift */; };
 		BDAA5F232B34264F002ABFF8 /* humanAngerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F222B34264F002ABFF8 /* humanAngerState.swift */; };
 		BDAA5F252B342778002ABFF8 /* feelingAngerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F242B342778002ABFF8 /* feelingAngerState.swift */; };
+		BDAA5F282B36D85D002ABFF8 /* humanScaredState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F272B36D85D002ABFF8 /* humanScaredState.swift */; };
+		BDAA5F2A2B36D930002ABFF8 /* feelingScaredState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA5F292B36D930002ABFF8 /* feelingScaredState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		BDAA5F202B3424D1002ABFF8 /* LastSad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastSad.swift; sourceTree = "<group>"; };
 		BDAA5F222B34264F002ABFF8 /* humanAngerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humanAngerState.swift; sourceTree = "<group>"; };
 		BDAA5F242B342778002ABFF8 /* feelingAngerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingAngerState.swift; sourceTree = "<group>"; };
+		BDAA5F272B36D85D002ABFF8 /* humanScaredState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = humanScaredState.swift; sourceTree = "<group>"; };
+		BDAA5F292B36D930002ABFF8 /* feelingScaredState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feelingScaredState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +120,7 @@
 				5C669C702B343FC700C00C76 /* sad */,
 				BD7C83D82B341210005DAA95 /* Home.swift */,
 				5C669C712B34418F00C00C76 /* angry */,
-				BD7C83DC2B341691005DAA95 /* LastScared.swift */,
+				BDAA5F262B36D7F6002ABFF8 /* scared */,
 				5C669C6F2B343F1B00C00C76 /* happy */,
 				5C7879AF2B31FC58004C9DDD /* Assets.xcassets */,
 				5C7879B12B31FC58004C9DDD /* Preview Content */,
@@ -131,6 +135,16 @@
 				5C7879B22B31FC58004C9DDD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDAA5F262B36D7F6002ABFF8 /* scared */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C83DC2B341691005DAA95 /* LastScared.swift */,
+				BDAA5F272B36D85D002ABFF8 /* humanScaredState.swift */,
+				BDAA5F292B36D930002ABFF8 /* feelingScaredState.swift */,
+			);
+			path = scared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +224,7 @@
 				5C8135A02B34D3B4003F8E6B /* SplashScreenView.swift in Sources */,
 				5C7879AC2B31FC57004C9DDD /* MaknoonApplictionApp.swift in Sources */,
 				5C7879BA2B3204B8004C9DDD /* humanHappyState.swift in Sources */,
+				BDAA5F2A2B36D930002ABFF8 /* feelingScaredState.swift in Sources */,
 				BD7C83DB2B341548005DAA95 /* LastAnger.swift in Sources */,
 				5C7879BC2B321807004C9DDD /* feelingHappyState.swift in Sources */,
 				5CF2C52F2B32E7FA00CB0BD7 /* humanSadState.swift in Sources */,
@@ -218,6 +233,7 @@
 				5C6D508B2B334DD10030A604 /* exampleOfFeelingSad.swift in Sources */,
 				BDAA5F212B3424D1002ABFF8 /* LastSad.swift in Sources */,
 				BD7C83DD2B341691005DAA95 /* LastScared.swift in Sources */,
+				BDAA5F282B36D85D002ABFF8 /* humanScaredState.swift in Sources */,
 				BD7C83D92B341210005DAA95 /* Home.swift in Sources */,
 				5CF2C5312B32E96800CB0BD7 /* feelingSad.swift in Sources */,
 			);
@@ -360,7 +376,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,7 +405,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
