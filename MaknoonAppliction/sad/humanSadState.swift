@@ -19,10 +19,10 @@ struct humanSadState: View {
             ZStack{
                 Color("lightGreen").edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 Rectangle()
-                    .frame(width:697,height:600)
                     .foregroundColor(Color("lightPink"))
-                    .border(Color("gray"), width: 2)
-                    .cornerRadius(58)
+                    .frame(width:697,height:600) .cornerRadius(30)
+                    .rotationEffect(.degrees(-180))
+                    .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
                 VStack{
                     Button(action:{
                         speakText()
@@ -30,7 +30,8 @@ struct humanSadState: View {
                     
                     }){
                         Image(systemName: "speaker.wave.2")
-                            .font(.system(size: 40)) // Adjust the size of the icon
+                            .font(.system(size: 44)) .fontWeight(.bold)
+                            .offset(x:-20,y:18)
                                 .foregroundColor(Color("purple"))
                                 .padding(.trailing,500)
                                 .accessibility(label: Text("Speaker"))
@@ -50,10 +51,10 @@ struct humanSadState: View {
                         
                         
                         Text("Sad")
-                            .font(.system(size: 72))
+                            .font(.system(size: 50))
                             .fontWeight(.bold)
                             .accessibility(label: Text("word"))
-                            .accessibility(hint: Text("happy"))
+                            .accessibility(hint: Text("sad"))
                             .foregroundColor(Color("purple"))
                         
                        
@@ -70,20 +71,20 @@ struct humanSadState: View {
                     }){
                         ZStack{
                             Rectangle()
-                                .frame(width:147,height:58)
                                 .foregroundColor(Color("lightPink"))
-                                .border(Color("gray"), width: 2)
-                                .cornerRadius(58)
+                                .frame(width:160,height:70)
+                                .cornerRadius(20)
+                                .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
                             
                             
                             
                             
-                            Image(systemName:"arrowshape.turn.up.backward.fill")
+                            Image(systemName:"arrowshape.backward.fill")
                                 .resizable()
-                                .frame(width:22,height:23)
+                                .frame(width:30,height:33)
                                 .foregroundColor(Color("purple"))
                               
-                        }
+                        }.padding(.trailing,20)
 
                 }
                 .accessibility(label: Text("Next"))

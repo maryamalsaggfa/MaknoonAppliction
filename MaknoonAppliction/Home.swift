@@ -4,7 +4,6 @@
 //
 //  Created by Reyouf Alqahtani on 08/06/1445 AH.
 //
-
 import SwiftUI
 
 struct Home: View {
@@ -137,9 +136,9 @@ struct Home: View {
           .fullScreenCover(isPresented:$Sadbutton) {
                  humanSadState()
                   }
-//                  .fullScreenCover(isPresented:$Sadbutton) {
-//                 ScaredPage()
-//                  }
+                  .fullScreenCover(isPresented:$Scaredbutton) {
+              humanScaredState()
+                  }
     }
 }
 

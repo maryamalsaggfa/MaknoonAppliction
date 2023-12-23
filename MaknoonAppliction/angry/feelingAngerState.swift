@@ -4,7 +4,6 @@
 //
 //  Created by Reyouf Alqahtani on 08/06/1445 AH.
 //
-
 import SwiftUI
 import AVFAudio
 struct feelingAngerState: View {
@@ -19,8 +18,9 @@ struct feelingAngerState: View {
                 Rectangle()
                     .frame(width:697,height:600)
                     .foregroundColor(Color("lightPink"))
-                    .border(Color("gray"), width: 2)
                     .cornerRadius(58)
+                    .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
+                    
                 VStack{
                     Button(action:{
                         speakText()
@@ -28,7 +28,8 @@ struct feelingAngerState: View {
                     
                     }){
                         Image(systemName: "speaker.wave.2")
-                            .font(.system(size: 40)) // Adjust the size of the icon
+                            .font(.system(size: 44))
+                            .fontWeight(.bold)
                             .foregroundColor(Color("purple"))
                                 .padding(.trailing,500)
                                 .accessibility(label: Text("Speaker"))
@@ -48,7 +49,7 @@ struct feelingAngerState: View {
                         Text("I am Angry ")
                             .accessibility(label: Text("phrase"))
                             .accessibility(hint: Text("I am Angry"))
-                            .font(.system(size: 72))
+                            .font(.system(size: 50))
                             .fontWeight(.bold)
                             .foregroundColor(Color("purple"))
                             .padding(.top,30)
@@ -67,15 +68,14 @@ struct feelingAngerState: View {
                     }){
                         ZStack{
                             Rectangle()
-                                .frame(width:147,height:58)
+                                .frame(width:160,height:70)
                                 .foregroundColor(Color("lightPink"))
-                                .border(Color("gray"), width: 2)
-                                .cornerRadius(58)
-                                
-    
-                            Image(systemName:"arrowshape.turn.up.backward.fill")
+                                .cornerRadius(20)
+                                .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
+                             
+                            Image(systemName:"arrowshape.backward.fill")
                                 .resizable()
-                                .frame(width:22,height:23)
+                                .frame(width:30,height:33)
                                 .foregroundColor(Color("purple"))
                         }
 

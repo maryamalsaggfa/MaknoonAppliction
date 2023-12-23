@@ -8,7 +8,7 @@ import SwiftUI
 import AVFAudio
 struct LastScared: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Dark makes me scared"
+    @State private var spokenHappyWord: String = "Thunder makes me scared"
     @State private var activebutton = false
     var body: some View {
         ZStack{
@@ -18,17 +18,17 @@ struct LastScared: View {
                 ZStack{
                     Rectangle()
                         .foregroundColor(Color("lightPink"))
-                        .frame(width:697,height:600) .cornerRadius(20)
+                        .frame(width:697,height:600) .cornerRadius(30)
                         .rotationEffect(.degrees(-180))
-                        .shadow(color: Color("Shadow"), radius: 2, x: 0, y: 2)
-                    Image("Candy")
+                        .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
+                    Image("LastScared")
                         .resizable() .foregroundColor(Color("purple"))
                         .frame(width: 400,height:400)
-                        .offset(x:0,y:-30)
+                        .offset(x:0,y:-10)
                         .cornerRadius(10)
-                        .accessibility(label: Text("Scared child"))
+                        .accessibility(label: Text("Scared Kid"))
                     //description
-                        .accessibility(hint: Text("Image of a A scared child"))
+                        .accessibility(hint: Text("In this image, a little child wears  white thaube , looks scared because of thunder. The child's face shows fear with wide eyes and a tense expression. he tightly hold onto his thaube, seeking comfort. The image captures the moment of a child feeling scared and looking for reassurance."))
                     // Add more to the discription
                     HStack{
                         Button(action:{
@@ -37,20 +37,24 @@ struct LastScared: View {
                             
                         }){
                             Image(systemName: "speaker.wave.2")
-                                .font(.system(size: 40))
+                                .font(.system(size: 44))
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("purple"))
                                 .padding([.bottom, .trailing],480.0)
-                            .offset(x:-40,y: 0)}
+                            .offset(x:-40,y: 0).accessibility(label: Text("Speaker"))
+                            .accessibility(hint: Text("Tap to hear the phrase 'Thunder makes me scared'"))}
                     }
                     
                     HStack{
-                        Text("Im scared because.. !")
+                        Text("Thunder makes me scared")
                             .font(.system(size: 50))
                             .fontWeight(.bold)
                             .multilineTextAlignment(.center)
                             .offset(x:5,y:237)
                             .foregroundColor(Color("purple"))
+                            .accessibility(label: Text("Sentence"))
+                            .accessibility(hint: Text("Thunder makes me scared"))
+                       
                         }  }
                 .padding(10)
                 Button(action: {
@@ -61,15 +65,14 @@ struct LastScared: View {
                         
                         Rectangle()
                             .foregroundColor(Color("lightPink"))
-                            .frame(width: 147, height: 58)
-                            .cornerRadius(30)
-                            .rotationEffect(.degrees(-180))
-                            .shadow(color: Color("Shadow"), radius: 2, x: 0, y: 2)
-                        Image(systemName:"arrowshape.turn.up.backward.fill")
+                            .frame(width:160,height:70)
+                            .cornerRadius(20)
+                            .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
+                        Image(systemName:"arrowshape.backward.fill")
                             .resizable()
-                            .frame(width:22,height:23)
+                            .frame(width:30,height:33)
                             .foregroundColor(Color("purple"))
-                    }    .padding(.trailing,740)}}
+                    }    .padding(.trailing,886)}}
             
             .padding(.bottom,-50)
         }

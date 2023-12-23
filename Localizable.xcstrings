@@ -573,7 +573,14 @@
       }
     },
     "مكنون" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مكنون"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

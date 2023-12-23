@@ -1,28 +1,24 @@
 //
-//  feelingHappyState.swift
+//  humanAngerState.swift
 //  MaknoonAppliction
 //
-//  Created by maryam on 06/06/1445 AH.
+//  Created by Reyouf Alqahtani on 08/06/1445 AH.
 //
-
 import SwiftUI
-import AVFAudio
-
-struct feelingHappyState: View {
+import AVFoundation
+struct humanScaredState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-   
-    @State private var spokenHappyWord: String = NSLocalizedString("I am happy", comment: "Default I am happy")
+    @State private var spokenHappyWord: String = NSLocalizedString("Scared", comment: "Default Scared Word")
 
     @State private var isButtonNextTapped = false
     
     var body: some View {
-    
             ZStack{
                 Color("lightGreen").edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 Rectangle()
-                    .frame(width:697,height:600)
                     .foregroundColor(Color("lightPink"))
-                    .cornerRadius(58)
+                    .frame(width:697,height:600) .cornerRadius(30)
+                    .rotationEffect(.degrees(-180))
                     .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
                 VStack{
                     Button(action:{
@@ -33,38 +29,39 @@ struct feelingHappyState: View {
                         Image(systemName: "speaker.wave.2")
                             .font(.system(size: 44))
                             .fontWeight(.bold)
-                            .foregroundColor(Color("purple"))
+                            .offset(x:-20,y:18)
+                                .foregroundColor(Color("purple"))
                                 .padding(.trailing,500)
-                                .offset(x:0,y:13)
                                 .accessibility(label: Text("Speaker"))
-                                .accessibility(hint: Text("Tap to hear the word 'I'm happy'"))
+                                .accessibility(hint: Text("Tap to hear the word 'Scared'"))
                     }
                     
-                    Image("happyKid")
+                    Image("Scared")
                         .resizable()
-                        .frame(width:362,height: 362)
-                        
-                        .accessibility(label: Text("happy kid"))
-                        .accessibility(hint: Text("In this image, a little child dons a bright white thobe, radiating happiness. The child's face is adorned with a beaming smile, and his eyes sparkle with delight. The overall expression exudes pure joy and contentment. "))
+                        .frame(width:400,height:424)
+                    .accessibility(label: Text("Scared kid"))
+                    //add the discription
+                    .accessibility(hint: Text("In this image, a cartoon kid conveys a serious demeanor, expressing strong emotions associated with fear. The child is adorned in a striking blue shirt adorned with noticeable white lines. Their hair appears slightly disheveled, reflecting a sense of anxiety or apprehension. The expression on the kid's face suggests intense feelings of fear or concern. The shades of blue in the shirt may evoke a sense of unease, and the white lines contribute to the overall portrayal of heightened emotions associated with fear. "))
                     Spacer()
-                    .frame(height:45)
+                    .frame(height:0)
+                    
                     HStack() {
                         
                         
-                        Text("I am happy")
-                            .accessibility(label: Text("phrase"))
-                            .accessibility(hint: Text("I feel happy"))
+                        Text("Scared")
                             .font(.system(size: 50))
                             .fontWeight(.bold)
+                            .accessibility(label: Text("word"))
+                            .accessibility(hint: Text("Scared"))
                             .foregroundColor(Color("purple"))
-                         
                         
-                       
+                     
+                            
                     }
                  
                     
                 }
-               // ZStack{
+               
                     Button(action:{
                         isButtonNextTapped = true
                         print("next")
@@ -72,25 +69,30 @@ struct feelingHappyState: View {
                     }){
                         ZStack{
                             Rectangle()
-                                .frame(width:160,height:70)
                                 .foregroundColor(Color("lightPink"))
+                                .frame(width:160,height:70)
                                 .cornerRadius(20)
                                 .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
-                             
+                               
+                            
+                            
+                            
+                            
                             Image(systemName:"arrowshape.backward.fill")
                                 .resizable()
                                 .frame(width:30,height:33)
                                 .foregroundColor(Color("purple"))
-                        }
+                               
+                              
+                        } .padding(.trailing,20)
 
                 }
-                .padding(.top,675)
-                .padding(.trailing,900)
                 .accessibility(label: Text("Next"))
                 .accessibility(hint: Text("Tap to move to the next page"))
-                // move to reyof page
-            .fullScreenCover(isPresented:$isButtonNextTapped) {
-                   LastHappy()
+                .padding(.top,675)
+                .padding(.trailing,900)
+                .fullScreenCover(isPresented:$isButtonNextTapped) {
+                    feelingScaredState()
                 }
                 
             }
@@ -112,7 +114,6 @@ struct feelingHappyState: View {
         speechSynthesizer.speak(speechUtterance)
     }
 }
-
 #Preview {
-    feelingHappyState()
+    humanScaredState()
 }
