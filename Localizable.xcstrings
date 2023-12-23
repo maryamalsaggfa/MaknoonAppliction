@@ -444,6 +444,17 @@
         }
       }
     },
+    "my Toy is broken I'm angry" : {
+      "comment" : "Default my Toy is broken I'm angry",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " كُسِرَت لُعْبَتي لذا أنا غاضب"
+          }
+        }
+      }
+    },
     "Next" : {
       "localizations" : {
         "ar" : {
@@ -773,6 +784,7 @@
       }
     },
     "Thunder makes me scared" : {
+      "comment" : "Default Thunder makes me scared",
       "localizations" : {
         "ar" : {
           "stringUnit" : {

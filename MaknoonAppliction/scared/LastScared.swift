@@ -8,7 +8,9 @@ import SwiftUI
 import AVFAudio
 struct LastScared: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Thunder makes me scared"
+    
+    @State private var spokenHappyWord: String = NSLocalizedString("Thunder makes me scared", comment: "Default Thunder makes me scared")
+    
     @State private var activebutton = false
     var body: some View {
         ZStack{
@@ -41,7 +43,7 @@ struct LastScared: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(Color("purple"))
                                 .padding([.bottom, .trailing],480.0)
-                            .offset(x:-40,y: 0).accessibility(label: Text("Speaker"))
+                                .offset(x:-40,y: 0).accessibility(label: Text("Speaker"))
                             .accessibility(hint: Text("Tap to hear the phrase 'Thunder makes me scared'"))}
                     }
                     
@@ -54,8 +56,8 @@ struct LastScared: View {
                             .foregroundColor(Color("purple"))
                             .accessibility(label: Text("Sentence"))
                             .accessibility(hint: Text("Thunder makes me scared"))
-                       
-                        }  }
+                        
+                    }  }
                 .padding(10)
                 Button(action: {
                     activebutton = true
@@ -79,10 +81,17 @@ struct LastScared: View {
         .fullScreenCover(isPresented:$activebutton) {
             Home()}}
     func speakText(){
-            let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
+        let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
+        let currentLanguage = Locale.current.languageCode ?? "en"
+        if currentLanguage == "ar" {
+               // Use Arabic voice for Arabic localization
+               speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed
+        } else {
             speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-            speechSynthesizer.speak(speechUtterance)
-        }}
+        }
+        speechSynthesizer.speak(speechUtterance)
+    }
+}
 #Preview {
     LastScared()
 }

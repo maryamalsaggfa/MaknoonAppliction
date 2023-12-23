@@ -10,7 +10,9 @@ import SwiftUI
 import AVFAudio
 struct LastAnger: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "my Toy is broken I'm angry"
+    
+    @State private var spokenHappyWord: String = NSLocalizedString("my Toy is broken I'm angry", comment: "Default my Toy is broken I'm angry")
+    
     @State private var activebutton = false
     var body: some View {
         ZStack{
@@ -25,18 +27,18 @@ struct LastAnger: View {
                         .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
                     VStack{
                         Button(action:{
-                        speakText()
-                        print("tapped")
-                        
-                    }){
-                        Image(systemName: "speaker.wave.2")
-                            .font(.system(size: 44))
-                            .fontWeight(.bold)
-                            .foregroundColor(Color("purple"))
-                            .padding(.trailing,500)
-                            .accessibility(label: Text("Speaker"))
-                            .accessibility(hint: Text("Tap to hear the phrase 'My toy is broken ,Im Angry'"))
-                    }
+                            speakText()
+                            print("tapped")
+                            
+                        }){
+                            Image(systemName: "speaker.wave.2")
+                                .font(.system(size: 44))
+                                .fontWeight(.bold)
+                                .foregroundColor(Color("purple"))
+                                .padding(.trailing,500)
+                                .accessibility(label: Text("Speaker"))
+                                .accessibility(hint: Text("Tap to hear the phrase 'My toy is broken ,Im Angry'"))
+                        }
                         Image("AngryLast")
                             .resizable() .foregroundColor(Color("purple"))
                             .frame(width: 400,height:400)
@@ -44,19 +46,19 @@ struct LastAnger: View {
                             .cornerRadius(10)
                             .accessibility(label: Text("Angry Kid"))
                         //description
-                        .accessibility(hint: Text("In this image, there's a depiction of a child in a white thaub, conveying strong emotions of anger. The child's facial features are intense, with furrowed brows and an open mouth, indicating frustration. Wrinkles on the face emphasize the depth of the emotion. The child is holding a toy with both hands, perhaps gripping it tightly in response to their anger"))
-                    // Add more to the discription
-                    
-                    Text("My toy is broken ,I'm Angry")
-                        .font(.system(size: 50))
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(Color("purple"))
-                        .accessibility(label: Text("Phrase"))
-                        .accessibility(hint: Text("My toy is broken ,I'm Angry"))
-                      
+                            .accessibility(hint: Text("In this image, there's a depiction of a child in a white thaub, conveying strong emotions of anger. The child's facial features are intense, with furrowed brows and an open mouth, indicating frustration. Wrinkles on the face emphasize the depth of the emotion. The child is holding a toy with both hands, perhaps gripping it tightly in response to their anger"))
+                        // Add more to the discription
+                        
+                        Text("My toy is broken ,I'm Angry")
+                            .font(.system(size: 50))
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(Color("purple"))
+                            .accessibility(label: Text("Phrase"))
+                            .accessibility(hint: Text("My toy is broken ,I'm Angry"))
+                        
+                    }
                 }
-            }
                 Button(action: {
                     activebutton = true
                 })
@@ -78,12 +80,19 @@ struct LastAnger: View {
         .fullScreenCover(isPresented:$activebutton) {
             Home()
         }}
-    
+
     func speakText(){
-            let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
+        let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
+        let currentLanguage = Locale.current.languageCode ?? "en"
+        if currentLanguage == "ar" {
+               // Use Arabic voice for Arabic localization
+               speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed
+        } else {
             speechUtterance.voice = AVSpeechSynthesisVoice(language: "en-US")
-            speechSynthesizer.speak(speechUtterance)
-        }}
+        }
+        speechSynthesizer.speak(speechUtterance)
+    }
+}
 #Preview {
     LastAnger()
 }

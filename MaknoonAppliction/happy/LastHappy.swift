@@ -9,7 +9,9 @@ import SwiftUI
 import AVFAudio
 struct  LastHappy: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
-    @State private var spokenHappyWord: String = "Candy makes me happy"
+   
+    @State private var spokenHappyWord: String = NSLocalizedString("Candy makes me happy", comment: "Default Candy makes me happy")
+
    
     @State private var activebutton = false
     var body: some View {
