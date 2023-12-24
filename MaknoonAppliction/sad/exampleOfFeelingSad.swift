@@ -58,12 +58,9 @@ struct exampleOfFeelingSad: View {
                             .font(.system(size: 50))
                             .fontWeight(.bold)
                             .accessibility(label: Text("phrase"))
-                            .accessibility(hint: Text("sad phrase I lost the race, I am sad"))
+                            .accessibility(hint: Text(" I lost the race, I am sad"))
                             .foregroundColor(Color("purple"))
-                 
-                    
                 }
-               
                     Button(action:{
                         isButtonNextTapped = true
                         print("next")

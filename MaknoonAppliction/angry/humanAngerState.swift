@@ -9,9 +9,7 @@ import AVFoundation
 struct humanAngerState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
     @State private var spokenHappyWord: String = NSLocalizedString("Angry", comment: "Default Angry Word")
-
     @State private var isButtonNextTapped = false
-    
     var body: some View {
             ZStack{
                 Color("lightGreen").edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)

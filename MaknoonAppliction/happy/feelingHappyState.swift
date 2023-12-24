@@ -53,7 +53,7 @@ struct feelingHappyState: View {
                         
                         Text("I am happy")
                             .accessibility(label: Text("phrase"))
-                            .accessibility(hint: Text("I feel happy"))
+                            .accessibility(hint: Text("I am happy"))
                             .font(.system(size: 50))
                             .fontWeight(.bold)
                             .foregroundColor(Color("purple"))

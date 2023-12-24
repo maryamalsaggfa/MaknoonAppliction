@@ -1,6 +1,16 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    " I lost the race, I am sad" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خَسِرْتُ السِّباقَ لِذا أنا حَزِينْ"
+          }
+        }
+      }
+    },
     "an image of sad face" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -66,23 +76,24 @@
       }
     },
     "Candy makes me happy" : {
-      "comment" : "Default Candy makes me happy",
+      "comment" : " default Candy makes me happy",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "الحَلْوى تجعلُني سَعيداً"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "الحَلوى تَجعَلُني سَعيداً"
+            "value" : "Candy makes me happy"
           }
         }
       }
     },
     "Cnady makes me happy!" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -188,6 +199,7 @@
       }
     },
     "I feel happy" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -220,6 +232,7 @@
       }
     },
     "Im sad because" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -263,6 +276,7 @@
       }
     },
     "Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -414,6 +428,17 @@
         }
       }
     },
+    "Key 1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "k"
+          }
+        }
+      }
+    },
     "mmm" : {
       "localizations" : {
         "ar" : {
@@ -455,6 +480,16 @@
         }
       }
     },
+    "My toy is broken, I'm Angry" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " كُسِرَت لُعْبَتي لذا أنا غاضب"
+          }
+        }
+      }
+    },
     "Next" : {
       "localizations" : {
         "ar" : {
@@ -481,6 +516,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جُمْلَة"
+          }
+        }
+      }
+    },
+    "phrase I lost the race, I am sad" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خَسِرتُ السِّباق لِذا أنا حَزِين."
           }
         }
       }
@@ -549,6 +595,7 @@
       }
     },
     "sad phrase I lost the race, I am sad" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -601,6 +648,7 @@
       }
     },
     "Sentence" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -632,11 +680,22 @@
       }
     },
     "Tap to hear the phrase 'Cande makes me happy'" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة \" الحَلْوى تَجعَلُني سَعيداً\""
+          }
+        }
+      }
+    },
+    "Tap to hear the phrase 'Candy makes me happy'" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة  \"الحلوى تجعلني سعيداً\""
           }
         }
       }
