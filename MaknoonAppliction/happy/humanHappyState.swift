@@ -10,6 +10,7 @@ import AVFoundation
 // voiceover acecssability label ( .accessibility(label: Text("Greeting"))
 // voiceover hint .accessibility(hint: Text("Tap to hear a friendly greeting"))
 struct humanHappyState: View {
+    @ScaledMetric var fontSize: CGFloat = 50
     @State private var speechSynthesizer = AVSpeechSynthesizer()
     @State private var spokenHappyWord: String = NSLocalizedString("Happy", comment: "Default happy word")
 
@@ -50,7 +51,8 @@ struct humanHappyState: View {
                         
                         
                         Text("Happy")
-                            .font(.system(size: 50))
+                            .font(.system(size: fontSize))
+                            //.font(.system(size: 50))
                             .fontWeight(.bold)
                             .accessibility(label: Text("word"))
                             .accessibility(hint: Text("happy"))

@@ -8,6 +8,8 @@ import SwiftUI
 import AVFoundation
 struct LastAnger: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
+    @ScaledMetric var fontSize: CGFloat = 50
+
     @State private var spokenHappyWord: String = NSLocalizedString("my Toy is broken I'm angry", comment: "Default my Toy is broken I'm angry")
     @State private var isButtonNextTapped = false
     var body: some View {
@@ -45,7 +47,7 @@ struct LastAnger: View {
                     HStack() {
                         
                         Text("My toy is broken, I'm Angry")
-                            .font(.system(size: 50))
+                            .font(.system(size: fontSize))
                             .fontWeight(.bold)
                             .accessibility(label: Text("Phrase"))
                     .accessibility(hint: Text("My toy is broken ,I'm Angry"))

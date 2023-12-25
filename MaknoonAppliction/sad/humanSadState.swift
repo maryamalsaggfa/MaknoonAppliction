@@ -10,6 +10,8 @@ import AVFAudio
 
 struct humanSadState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
+    @ScaledMetric var fontSize: CGFloat = 50
+
     @State private var spokenHappyWord: String = NSLocalizedString("sad", comment: "Default sad word")
 
     @State private var isButtonNextTapped = false
@@ -51,7 +53,7 @@ struct humanSadState: View {
                         
                         
                         Text("Sad")
-                            .font(.system(size: 50))
+                            .font(.system(size: fontSize))
                             .fontWeight(.bold)
                             .accessibility(label: Text("word"))
                             .accessibility(hint: Text("sad"))

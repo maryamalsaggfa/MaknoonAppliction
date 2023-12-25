@@ -3,6 +3,8 @@ import SwiftUI
 import AVFoundation
 struct LastScared: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
+    @ScaledMetric var fontSize: CGFloat = 50
+
     @State private var spokenHappyWord: String = NSLocalizedString("Thunder makes me scared", comment: "Default Thunder makes me scared")
     @State private var isButtonNextTapped = false
     var body: some View {
@@ -40,7 +42,7 @@ struct LastScared: View {
                     HStack() {
                         
                         Text("Thunder makes me scared")
-                            .font(.system(size: 50))
+                            .font(.system(size: fontSize))
                             .fontWeight(.bold)
                             .accessibility(label: Text("Phrase"))
                         .accessibility(hint: Text("Thunder makes me scared"))

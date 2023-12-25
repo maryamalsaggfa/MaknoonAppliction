@@ -8,6 +8,7 @@ import SwiftUI
 import AVFoundation
 struct LastHappy: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
+    @ScaledMetric var fontSize: CGFloat = 50
     @State private var spokenHappyWord: String = NSLocalizedString("Candy makes me happy", comment: " default Candy makes me happy")
     @State private var isButtonNextTapped = false
     var body: some View {
@@ -48,7 +49,7 @@ struct LastHappy: View {
                         
                         
                         Text("Candy makes me happy")
-                            .font(.system(size: 50))
+                            .font(.system(size:fontSize))
                             .fontWeight(.bold)
                             .accessibility(label: Text("Phrase"))
                             .accessibility(hint: Text("Candy makes me happy"))

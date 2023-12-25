@@ -11,6 +11,8 @@ struct Home: View {
     @State var Sadbutton:Bool = false
     @State var Angerbutton:Bool = false
     @State var Scaredbutton:Bool = false
+    @ScaledMetric var fontSize: CGFloat = 52
+    @ScaledMetric var fontSize2: CGFloat = 58
     @Environment(\.sizeCategory) var sizecategory
     var body: some View {
           ZStack{
@@ -19,7 +21,9 @@ struct Home: View {
              
               VStack{
                   Text("My emotions")
-                      .font(.system(size: 58))
+                  
+                    //  .font(.system(size: 58))
+                      .font(.system(size: fontSize2))
                       .fontWeight(.bold)
                       .multilineTextAlignment(.center)
                       .foregroundColor(Color("purple"))
@@ -42,7 +46,8 @@ struct Home: View {
                                       .frame(width: 140,height: 150)
                                       .offset(x:1,y:-20)
                                   Text("Happy")
-                                      .font(.system(size: 52))
+                                     // .font(.system(size: 52))
+                                      .font(.system(size: fontSize))
                                       .fontWeight(.bold)
                                       .multilineTextAlignment(.center)
                                       .offset(x:0,y:82
@@ -68,7 +73,8 @@ struct Home: View {
                                               .frame(width: 140,height: 150)
                                               .offset(x:1,y:-20)
                                           Text("Angry")
-                                              .font(.system(size: 52))
+                                //.font(.system(size: 52))
+                                              .font(.system(size: fontSize))
                                               .fontWeight(.bold)
                                               .multilineTextAlignment(.center)
                                               .offset(x:0,y:82)
@@ -92,7 +98,8 @@ struct Home: View {
                                               .frame(width: 140,height: 150)
                                               .offset(x:1,y:-20)
                                           Text("Sad")
-                                              .font(.system(size: 52))
+                                          //    .font(.system(size: 52))
+                                              .font(.system(size: fontSize))
                                               .fontWeight(.bold)
                                               .multilineTextAlignment(.center)
                                               .offset(x:0,y:82)
@@ -114,7 +121,8 @@ struct Home: View {
                                               .frame(width: 140,height: 150)
                                               .offset(x:1,y:-20)
                                           Text("Scared")
-                                              .font(.system(size: 52))
+                                             // .font(.system(size: 52))
+                                              .font(.system(size: fontSize))
                                               .fontWeight(.bold)
                                               .multilineTextAlignment(.center)
                                               .offset(x:0,y:82)

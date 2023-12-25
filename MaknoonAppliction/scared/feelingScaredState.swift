@@ -9,6 +9,8 @@ import AVFAudio
 struct  feelingScaredState: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
     @State private var spokenHappyWord: String = NSLocalizedString("I am Scared", comment: "I am Scared")
+    @ScaledMetric var fontSize: CGFloat = 50
+
     @State private var isButtonNextTapped = false
     
     var body: some View {
@@ -49,7 +51,7 @@ struct  feelingScaredState: View {
                         Text("I am Scared")
                             .accessibility(label: Text("phrase"))
                             .accessibility(hint: Text("I am Scared"))
-                            .font(.system(size: 50))
+                            .font(.system(size:fontSize))
                             .fontWeight(.bold)
                             .foregroundColor(Color("purple"))
                             .padding(.top,30)

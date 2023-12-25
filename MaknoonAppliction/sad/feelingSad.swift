@@ -12,7 +12,8 @@ struct feelingSad: View {
     @State private var speechSynthesizer = AVSpeechSynthesizer()
     @State private var spokenHappyWord: String = NSLocalizedString("I am sad", comment: "Default I am sad")
 
-   
+    @ScaledMetric var fontSize: CGFloat = 50
+
     @State private var isButtonNextTapped = false
     
     var body: some View {
@@ -51,7 +52,7 @@ struct feelingSad: View {
                         Text("I am sad")
                             .accessibility(label: Text("phrase"))
                             .accessibility(hint: Text("I am sad"))
-                            .font(.system(size: 50))
+                            .font(.system(size:fontSize))
                             .fontWeight(.bold)
                             .foregroundColor(Color("purple"))
                          
