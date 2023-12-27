@@ -437,6 +437,23 @@
         }
       }
     },
+    "Key 2" : {
+      "extractionState" : "manual"
+    },
+    "Key 3" : {
+      "extractionState" : "manual"
+    },
+    "Maknoon" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مكنون"
+          }
+        }
+      }
+    },
     "mmm" : {
       "localizations" : {
         "ar" : {
@@ -862,6 +879,7 @@
       }
     },
     "مكنون" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {

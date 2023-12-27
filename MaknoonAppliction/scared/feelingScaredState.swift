@@ -72,7 +72,7 @@ struct  feelingScaredState: View {
                                 .cornerRadius(20)
                                 .shadow(color: Color("Shadow"), radius: 9, x: 0, y: 10)
                              
-                            Image(systemName:"arrowshape.backward.fill")
+                            Image(systemName:"arrowshape.forward.fill")
                                 .resizable()
                                 .frame(width:30,height:33)
                                 .foregroundColor(Color("purple"))
@@ -80,7 +80,7 @@ struct  feelingScaredState: View {
 
                 }
                 .padding(.top,675)
-                .padding(.trailing,900)
+                .padding(.leading,900)
                 .accessibility(label: Text("Next"))
                 .accessibility(hint: Text("Tap to move to the next page"))
                 // move to reyof page

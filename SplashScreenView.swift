@@ -33,7 +33,7 @@ struct SplashScreenView: View {
                                 .font(.system(size: 80))
                             
                             
-                            Text("مكنون")
+                            Text("Maknoon")
                                 .font(Font.custom("Baskerville-Bold", size: 60))
                                 .foregroundColor(Color("purple"))
                         }

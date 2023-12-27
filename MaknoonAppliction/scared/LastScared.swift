@@ -69,7 +69,7 @@ struct LastScared: View {
                             
                             
                             
-                            Image(systemName:"arrowshape.backward.fill")
+                            Image(systemName:"arrowshape.forward.fill")
                                 .resizable()
                                 .frame(width:30,height:33)
                                 .foregroundColor(Color("purple"))
@@ -81,7 +81,7 @@ struct LastScared: View {
                 .accessibility(label: Text("Next"))
                 .accessibility(hint: Text("Tap to move to the next page"))
                 .padding(.top,675)
-                .padding(.trailing,900)
+                .padding(.leading,900)
                 .fullScreenCover(isPresented:$isButtonNextTapped) {
                   Home()
                 }
