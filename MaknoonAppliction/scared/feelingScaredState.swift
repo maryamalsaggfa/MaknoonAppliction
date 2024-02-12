@@ -97,6 +97,12 @@ struct  feelingScaredState: View {
     }
     func speakText(){
         let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
+        
+        speechUtterance.pitchMultiplier = 1.2// You can adjust this value as needed
+        
+    speechUtterance.rate = AVSpeechUtteranceDefaultSpeechRate // You can adjust this value as needed
+        
+    speechUtterance.volume = 2// You can adjust this value as needed
         let currentLanguage = Locale.current.languageCode ?? "en"
         if currentLanguage == "ar" {
                // Use Arabic voice for Arabic localization

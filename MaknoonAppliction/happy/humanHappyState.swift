@@ -108,7 +108,7 @@ struct humanHappyState: View {
     func speakText(){
         let speechUtterance = AVSpeechUtterance(string:spokenHappyWord)
         
-        speechUtterance.pitchMultiplier = 1.7// You can adjust this value as needed
+        speechUtterance.pitchMultiplier = 1.2// You can adjust this value as needed
         
     speechUtterance.rate = AVSpeechUtteranceDefaultSpeechRate // You can adjust this value as needed
         
