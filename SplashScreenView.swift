@@ -35,7 +35,7 @@ struct SplashScreenView: View {
                             
                             Text("Maknoon")
                                 .font(Font.custom("Baskerville-Bold", size: 60))
-                                .foregroundColor(Color("purple"))
+                                .foregroundColor(Color("Midpurple"))
                         }
                         .scaleEffect(size)
                         .opacity(opacity)

@@ -36,14 +36,14 @@ struct exampleOfFeelingSad: View {
                         Image(systemName: "speaker.wave.2")
                             .font(.system(size: 44))
                             .fontWeight(.bold)// Adjust the size of the icon
-                            .foregroundColor(Color("purple"))
+                            .foregroundColor(Color("Midpurple"))
                             .padding(.trailing,500)
                             .accessibility(label: Text("Speaker"))
                             .accessibility(hint: Text("Tap to hear the phrase 'I lost the race, I am sad'"))
                     }
                     
                     Image("crying")
-                        .resizable() .foregroundColor(Color("purple"))
+                        .resizable() .foregroundColor(Color("Midpurple"))
                         .frame(width: 400,height:400)
                         .offset(x:0,y:-10.5)
                         .cornerRadius(10)
@@ -62,7 +62,7 @@ struct exampleOfFeelingSad: View {
                             .fontWeight(.bold)
                             .accessibility(label: Text("phrase"))
                             .accessibility(hint: Text(" I lost the race, I am sad"))
-                            .foregroundColor(Color("purple"))
+                            .foregroundColor(Color("Midpurple"))
                         Spacer().frame(width: 8)
                         
                     }
@@ -81,7 +81,7 @@ struct exampleOfFeelingSad: View {
                             Image(systemName:"arrowshape.forward.fill")
                                 .resizable()
                                 .frame(width:30,height:33)
-                                .foregroundColor(Color("purple"))
+                                .foregroundColor(Color("Midpurple"))
                                 
                               
                         }.padding(.trailing,20)
@@ -111,7 +111,7 @@ struct exampleOfFeelingSad: View {
     speechUtterance.rate = AVSpeechUtteranceDefaultSpeechRate // You can adjust this value as needed
         
     speechUtterance.volume = 2// You can adjust this value as needed
-        let currentLanguage = Locale.current.languageCode ?? "en"
+        let currentLanguage = Locale.current.language.languageCode?.identifier ?? "en"
         if currentLanguage == "ar" {
                // Use Arabic voice for Arabic localization
                speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed

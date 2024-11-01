@@ -35,7 +35,7 @@ struct humanHappyState: View {
                             .font(.system(size: 44))
                             .fontWeight(.bold)
                             .offset(x:-20,y:18)
-                                .foregroundColor(Color("purple"))
+                                .foregroundColor(Color("Midpurple"))
                                 .padding(.trailing,500)       .accessibility(label: Text("Speaker"))
                                 .accessibility(hint: Text("Tap to hear the word 'happy'"))
                     }
@@ -56,7 +56,7 @@ struct humanHappyState: View {
                             .fontWeight(.bold)
                             .accessibility(label: Text("word"))
                             .accessibility(hint: Text("happy"))
-                            .foregroundColor(Color("purple"))
+                            .foregroundColor(Color("Midpurple"))
                           
              
                             
@@ -84,7 +84,7 @@ struct humanHappyState: View {
                             Image(systemName:"arrowshape.forward.fill")
                                 .resizable()
                                 .frame(width:30,height:33)
-                                .foregroundColor(Color("purple"))
+                                .foregroundColor(Color("Midpurple"))
                                
                               
                         } .padding(.trailing,20)
@@ -114,7 +114,7 @@ struct humanHappyState: View {
         
     speechUtterance.volume = 2// You can adjust this value as needed
             
-        let currentLanguage = Locale.current.languageCode ?? "en"
+        let currentLanguage = Locale.current.language.languageCode?.identifier ?? "en"
         if currentLanguage == "ar" {
                // Use Arabic voice for Arabic localization
                speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed

@@ -30,7 +30,7 @@ struct LastAnger: View {
                             .font(.system(size: 44))
                             .fontWeight(.bold)
                             .offset(x:-20,y:18)
-                                .foregroundColor(Color("purple"))
+                                .foregroundColor(Color("Midpurple"))
                                 .padding(.trailing,500)
                                 .accessibility(label: Text("Speaker"))
                                 .accessibility(hint: Text("Tap to hear the phrase 'My toy is broken ,Im Angry'"))
@@ -51,7 +51,7 @@ struct LastAnger: View {
                             .fontWeight(.bold)
                             .accessibility(label: Text("Phrase"))
                     .accessibility(hint: Text("My toy is broken ,I'm Angry"))
-                            .foregroundColor(Color("purple"))
+                            .foregroundColor(Color("Midpurple"))
                         
                      
                             
@@ -79,7 +79,7 @@ struct LastAnger: View {
                             Image(systemName:"arrowshape.forward.fill")
                                 .resizable()
                                 .frame(width:30,height:33)
-                                .foregroundColor(Color("purple"))
+                                .foregroundColor(Color("Midpurple"))
                                
                               
                         } .padding(.trailing,20)
@@ -108,7 +108,7 @@ struct LastAnger: View {
     speechUtterance.rate = AVSpeechUtteranceDefaultSpeechRate // You can adjust this value as needed
         
     speechUtterance.volume = 2// You can adjust this value as needed
-        let currentLanguage = Locale.current.languageCode ?? "en"
+        let currentLanguage = Locale.current.language.languageCode?.identifier ?? "en"
         if currentLanguage == "ar" {
                // Use Arabic voice for Arabic localization
                speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed

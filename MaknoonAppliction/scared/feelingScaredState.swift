@@ -32,7 +32,7 @@ struct  feelingScaredState: View {
                         Image(systemName: "speaker.wave.2")
                             .font(.system(size: 44))
                             .fontWeight(.bold)
-                            .foregroundColor(Color("purple"))
+                            .foregroundColor(Color("Midpurple"))
                                 .padding(.trailing,500)
                                 .accessibility(label: Text("Speaker"))
                                 .accessibility(hint: Text("Tap to hear the phrase 'I am Scared'"))
@@ -53,7 +53,7 @@ struct  feelingScaredState: View {
                             .accessibility(hint: Text("I am Scared"))
                             .font(.system(size:fontSize))
                             .fontWeight(.bold)
-                            .foregroundColor(Color("purple"))
+                            .foregroundColor(Color("Midpurple"))
                             .padding(.top,30)
                     }
                  
@@ -75,7 +75,7 @@ struct  feelingScaredState: View {
                             Image(systemName:"arrowshape.forward.fill")
                                 .resizable()
                                 .frame(width:30,height:33)
-                                .foregroundColor(Color("purple"))
+                                .foregroundColor(Color("Midpurple"))
                         }
 
                 }
@@ -103,7 +103,7 @@ struct  feelingScaredState: View {
     speechUtterance.rate = AVSpeechUtteranceDefaultSpeechRate // You can adjust this value as needed
         
     speechUtterance.volume = 2// You can adjust this value as needed
-        let currentLanguage = Locale.current.languageCode ?? "en"
+        let currentLanguage = Locale.current.language.languageCode?.identifier ?? "en"
         if currentLanguage == "ar" {
                // Use Arabic voice for Arabic localization
                speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // "ar-SA" for Saudi Arabic, adjust if needed

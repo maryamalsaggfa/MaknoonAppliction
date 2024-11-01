@@ -1,5 +1,5 @@
 {
-  "sourceLanguage" : "en",
+  "sourceLanguage" : "ar",
   "strings" : {
     " I lost the race, I am sad" : {
       "localizations" : {
@@ -7,6 +7,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "خَسِرْتُ السِّباقَ لِذا أنا حَزِينْ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " I lost the race, I am sad"
           }
         }
       }
@@ -19,6 +25,12 @@
             "state" : "translated",
             "value" : "صورة لوجه حزين"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "an image of sad face"
+          }
         }
       }
     },
@@ -30,6 +42,12 @@
             "state" : "translated",
             "value" : "صورة وجه مبتسم"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "an image of smiley face"
+          }
         }
       }
     },
@@ -40,6 +58,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "غاَضِبْ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angry"
           }
         }
       }
@@ -62,6 +86,12 @@
             "state" : "translated",
             "value" : "طفل غاضب"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angry kid"
+          }
         }
       }
     },
@@ -71,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "طفل غاضب "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angry Kid"
           }
         }
       }
@@ -100,6 +136,12 @@
             "state" : "translated",
             "value" : "الحَلْوى تجعلُني سَعيداً"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cnady makes me happy!"
+          }
         }
       }
     },
@@ -109,6 +151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "سَعيدْ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "happy"
           }
         }
       }
@@ -121,6 +169,12 @@
             "state" : "translated",
             "value" : "سَعيدْ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Happy"
+          }
         }
       }
     },
@@ -131,6 +185,12 @@
             "state" : "translated",
             "value" : "طفل سَعيد"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "happy kid"
+          }
         }
       }
     },
@@ -140,6 +200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "طفل سَعِيد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Happy Kid"
           }
         }
       }
@@ -152,6 +218,12 @@
             "state" : "translated",
             "value" : "انا غاضب"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am Angry"
+          }
         }
       }
     },
@@ -161,6 +233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "انا غاضب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am Angry "
           }
         }
       }
@@ -173,6 +251,12 @@
             "state" : "translated",
             "value" : "انا سعيد"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am happy"
+          }
         }
       }
     },
@@ -184,6 +268,12 @@
             "state" : "translated",
             "value" : "أنا حَزِين"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am sad"
+          }
         }
       }
     },
@@ -194,6 +284,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "أنا خائفْ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I am Scared"
           }
         }
       }
@@ -217,6 +313,12 @@
             "state" : "translated",
             "value" : "شَعَرْتُ بالإحْباط وأنا حزين"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I felt down I am sad"
+          }
         }
       }
     },
@@ -228,6 +330,12 @@
             "state" : "translated",
             "value" : "خَسِرْتُ السِّباقَ لِذا أنا حَزِينْ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I lost the race, I'm sad"
+          }
         }
       }
     },
@@ -237,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "أنا حزين لأن"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im sad because"
           }
         }
       }
@@ -248,6 +362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "أنا خائفة لأن..!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im scared because.. !"
           }
         }
       }
@@ -271,6 +391,12 @@
             "state" : "translated",
             "value" : "صورة طفل غاضب"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image of a An angry child"
+          }
         }
       }
     },
@@ -281,6 +407,12 @@
             "state" : "translated",
             "value" : "صُوَرٌ طِفْلٍ سَعِيْدٍ، ذُو بَشَرَةٍ نَاعِمَةٍ بِلَوْنِ الْقَمْحِ، يَرْتَدِي ثَوْبًا سَعُوْدِيًّا أَبْيَضَ نَاعِمًا. تَبْدُو بَشَرَةُ الطِّفْلِ دَافِئَةً عِنْدَ اللَّمْسِ، وَتَتَألَّقُ عَيْنَاهُ بِالْفَرَحِ. ابْتِسَامَةٌ كَبِيْرَةٌ وَمُعْدِيَةٌ تُضِيْءُ وُجُوْهَهُمْ، وَتَشَارِكُهُمْ السَّعَادَةَ فِي الدَّاخِلِ."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image of a happy child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"
+          }
         }
       }
     },
@@ -290,7 +422,13 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "صورة طفل غاضب ذو بشرة ناعمة قمعية اللون، يرتدي ثوباً سعودياً أبيض ناعماً. تبدو بشرة الطفل دافئة عند اللمس، وتتألق عيونه بالفرح. ابتسامة كبيرة ومعدية تضيء وجوههم، وتشاركهم السعادة في الداخل"
+            "value" : "صورة طفل غاضب ذو بشرة ناعمة قمعية اللون، يرتدي ثوباً سعودياً أبيض ناعماً. تبدو بشرة الطفل دافئة عند اللمس، وتتألق عيونه بالفرح. ابتسامة كبيرة ومعدية تضيء وجوههم، وتشاركهم السعادة في الداخل."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image of an angry child with smooth, wheat-colored skin, dressed in a soft, white Saudi thaub. The child's skin feels warm to the touch, and their eyes sparkle with joy. A big, infectious smile lights up their face, sharing the happiness within"
           }
         }
       }
@@ -302,6 +440,12 @@
             "state" : "translated",
             "value" : "يَظْهَرُ فِي الصُّوْرَةِ طِفْلٌ صَغِيْرٌ يَرْتَدِي الثَّوْبَ السَّعُوْدِيَّ الْفَضْفَاضِ، وَهُوَ الزِّيُّ التَّقْلِيْدِيُّ. يَبْدُو الطِّفْلُ مَنْزَعِجًا، رُبَّمَا بَعْدَ السَّبَاقِ، مَعَ وُجُوْدِ مَلْصُقٍ عَلَى الثَّوْبِ يَحْمِلُ مَعْلُومَاتِ الْحَدَثِ. الثَّوْبُ هُوَ لِبَاسٌ مُرِيْحٌ وَفَرِيْدٌ مِنْ نَوْعِهِ، وَالْمَلْصُقُ يُشْبِهُ شَارَةَ السَّبَاقِ، يَحْكِي قِصَّةً. وَتَتَجَلَّى عَوَاطِفُ الطِّفْلِ فِي الصُّوْرَةِ، وَتَعْكِسُ لَحْظَةَ شُعُوْرِهِ بِالْحُزْنِ أَوْ خِيبَةِ الْأَمَلِ."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the image, there's a young child wearing a loose Saudi thaub, a traditional outfit. The child looks upset, possibly after a race, with a sticker on the thaub holding event information. The thaub is a comfortable and unique garment, and the sticker is like a badge from the race, telling a story. The child's emotions are evident in the picture, reflecting a moment of feeling sad or disappointed"
+          }
         }
       }
     },
@@ -311,6 +455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "في هَذِهِ الصُّوْرَةِ، يَظْهَرُ طِفْلٌ رَسُوْمَ مَتَحَرِّكَةٌ بِمَظْهَرٍ جَادٍ، يُعْبِرُ عَنْ عَوَاطِفَ قَوِيَّةٍ مُرَتَّبِطَةٍ بِالْخَوْفِ. الطِّفْلُ مَرْتَدِيًا قَمِيْصًا أَزْرَقَ بَارِزًا مُزَيَّنًا بِخَطُّوطٍ بَيْضَاءَ وَاضِحَةٍ. يَظْهَرُ شَعَرُهُ بِشَكْلٍ مُتَسَاهِلٍ قَلِيْلًا، مَعَكُوسًا إِلَى حَدٍّ مَا، مُعْكِسًا شَعُورًا بِالْقَلَقِ أَوِ التَّرَقُّبِ. تُوْحِي التَّعْبِيرَاتُ عَلَى وَجْهِ الطِّفْلِ بِمَشَاعِرَ قَوِيَّةٍ مِنَ الْخَوْفِ أَوِ الْقَلَقِ. دَرَجَاتُ اللَّوْنِ الْأَزْرَقِ فِي الْقَمِيْصِ قَدْ تَسْتَحْضِرُ شَعُورًا بِعَدَمِ الرَّاحَةِ، وَالْخَطُوطُ الْبَيْضَاءُ تُسَاهِمُ فِي التَّصْوِيْرِ الْعَامِّ لِلْعَوَاطِفِ الْمُتَصَاعِدَةِ الْمُرَتَّبِطَةِ بِالْخَوْفِ."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, a cartoon kid conveys a serious demeanor, expressing strong emotions associated with fear. The child is adorned in a striking blue shirt adorned with noticeable white lines. Their hair appears slightly disheveled, reflecting a sense of anxiety or apprehension. The expression on the kid's face suggests intense feelings of fear or concern. The shades of blue in the shirt may evoke a sense of unease, and the white lines contribute to the overall portrayal of heightened emotions associated with fear. "
           }
         }
       }
@@ -322,6 +472,12 @@
             "state" : "translated",
             "value" : "يَظْهَرُ فِي هَذِهِ الصُّوْرَةِ طِفْلٌ يَرْتَدِي الثَّوْبَ السَّعُوْدِيَّ التَّقْلِيدِيَّ بِلَوْنٍ أَبْيَضَ نَاصِعٍ. تَشِيْرُ تَعْبِيرَاتُ وَجْهِ الطِّفْلِ إِلَى شَعُوْرٍ عَمِيْقٍ بِالْحُزْنِ، مَعَ تَجَعُّدِ الْحَوَاجِبِ وَالدُّمُوعِ الْوَاضِحَةِ الَّتِي تَتَدَفَّقُ عَلَى وَجْهِهِ. وَيَظْهَرُ الْحُزْنُ فِي عَيْنَيْهِمَا الْمُلِيَّئَتَيْنِ بِالدُّمُوعِ. يُتَنَقَّلُ الشِّدَّةَ الْعَاطِفِيَّةُ مِنْ خَلَالِ التَّصْوِيْرِ الْوَاضِحِ لِلدُّمُوعِ الْعَدِيْدَةِ عَلَى وَجْهِ الطِّفْلِ."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, a child is depicted wearing a traditional Saudi thaub in a bright shade of white. The child's facial expression suggests a profound sense of sadness, with furrowed brows and clear tears streaming down their face. The sadness is evident in their eyes, which are full of tears. The emotional intensity is conveyed through the clear depiction of numerous tears on the child's face."
+          }
         }
       }
     },
@@ -331,6 +487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "في هَذِهِ الصُوْرَةِ، الطِفْلُ يَرْتَدِي ثَوْبًا سَعُوْدِيًّا وَعِمَامَةً بَيْضَاءَ، وَتَعْبِيْرُ وَجْهِهِ يُنَقِلُ إِحْسَاسًا بِالْخَوْفِ. مَلَامِحُ الطِفْلِ تَظْهَرُ عَلَامَاتِ الْقَلَقِ، مَعَ عُيُوْنٍ وَاسِعَةٍ وَتَعْبِيْرٍ جَادٍ يُعَكِّسُ حَالَةً مِنَ الْخَوْفِ أَوِ الرُّهْبَةِ."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, a child is dressed in a Saudi thawb and a white turban, and their facial expression conveys a sense of fear. The child's features show signs of anxiety, with widened eyes and a serious expression reflecting a state of being scared or frightened."
           }
         }
       }
@@ -342,6 +504,12 @@
             "state" : "translated",
             "value" : "في هذِه الصورة، الطفل الصغِيرُ يَرتَدِي ثَوباً أَبيَضَ لَامِعاً، يَنبُعُثُ مِنهُ السَّعَادَة. وَجهُ الطِفلِ مُزَيَّنٌ بِابتِسَامَةٍ سَاطِعَةٍ، وَعَينَاهُ تَتَألَّقُانِ بِالبَهْجَةِ. التَّعبِيرُ العَامُّ يَنبُثُقُ بِفَرَحٍ وَرِضَا خَالِصٍ."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, a little child dons a bright white thobe, radiating happiness. The child's face is adorned with a beaming smile, and his eyes sparkle with delight. The overall expression exudes pure joy and contentment. "
+          }
         }
       }
     },
@@ -351,6 +519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "في هَذِهِ الصُّوْرَةِ، يَرْتَدِي الطِّفْلُ صَغِيْرٌ ثَوْبًا أَبْيَضَ، يَبْدُو خَائِفًا بِسَبَبِ الرَّعْدِ. وَجْهُ الطِّفْلِ يُظْهِرُ الْخَوْفَ بِعُيُوْنٍ وَاسِعَةٍ وَتَعْبِيْرٍ مُتَوَتِّرٍ. يَتَمَسَّكُ الطِّفْلُ بِثَوْبِهِ بِإِحْكَامٍ، يَبْحَثُ عَنِ الرَّاحَةِ. تُلْتَقِطُ الصُّوْرَةُ لَحْظَةَ انْفِعَالِ الطِّفْلِ وَبَحْثِهِ عَنِ التَّأْكِيدِ وَالطَّمَأْنِينَةِ."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, a little child wears  white thaube , looks scared because of thunder. The child's face shows fear with wide eyes and a tense expression. he tightly hold onto his thaube, seeking comfort. The image captures the moment of a child feeling scared and looking for reassurance."
           }
         }
       }
@@ -362,6 +536,12 @@
             "state" : "translated",
             "value" : "في هذِهِ الصُّوْرَةِ، يُظْهِرُ طِفْلٌ كَرِتُونِيٌّ مَشَاعِرَ قَوِيَّةً بِسُلُوكٍ جَدِيٍّ. يَرْتَدِي الطِّفْلُ قَمِيْصًا أَزْرَقَ زَاهِيًّا مَعَ خَطُوطٍ بَيْضَاءَ مُلَحَّظَةٍ، وَيَبْدُو شَعْرُهُ أَشْعِثًا قَلِيْلًا، مُمَا يُعَكِّسُ شَعُورًا بِالْإِحْبَاطِ أَوِ الْغَضَبِ. التَّعْبِيرُ عَلَى وَجْهِ الطِّفْلِ يُوْحِي بِمَشَاعِرَ شَدِيدَةٍ مِنَ الْاِسْتِيَاءِ أَوِ الْانْزِعَاجِ. قَدْ تُثِيرُ ظِلَالُ اللَّوْنِ الْأَزْرَقِ فِي الْقَمِيْصِ جَوًّا عَاصِفًا، وَتُسَاهِمُ الْخَطُوطُ الْبَيْضَاءُ فِي التَّصْوِيْرِ الْعَامِّ لِلْمَشَاعِرِ الْمُتَصَاعِدَةِ.\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, there's a cartoon kid expressing strong emotions with a serious demeanor. The child is wearing a vivid blue shirt with noticeable white lines, and their hair appears slightly disheveled, reflecting a sense of frustration or anger. The expression on the kid's face suggests intense feelings of displeasure or irritation. The shades of blue in the shirt may evoke a stormy atmosphere, and the white lines contribute to the overall portrayal of heightened emotions. "
+          }
         }
       }
     },
@@ -371,6 +551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "في هَذِهِ الصُّوْرَةِ، يَظْهَرُ تَصْوِيرٌ لِطِفْلٍ يَرْتَدِي الثَّوْبَ الْأَبْيَضَ، وَيُنَقِّلُ مَشَاعِرَ الْغَضَبِ الْقَوِيَّةِ. مَلَامِحُ وَجْهِ الطِّفْلِ حَادَّةٌ، مَعَ حَوَاجِبَ مُجَعَّدَةٍ وَفَمٍ مَفْتُوحٍ، مُمَا يُدْلِ عَلَى الْإِحْبَاطِ. تُؤَكِّدُ التَّجَاعِيدُ الْمُوجُودَةُ عَلَى الْوَجْهِ عَلَى عُمْقِ الْعَاطِفَةِ. يُمْسِكُ الطِّفْلُ بِلُعْبَةٍ بِكُلِّتَا يَدَيْهِ، وَرُبَّمَا يَمْسَكُهَا بِقُوَّةٍ رَدًّا عَلَى غَضَبِهِ."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, there's a depiction of a child in a white thaub, conveying strong emotions of anger. The child's facial features are intense, with furrowed brows and an open mouth, indicating frustration. Wrinkles on the face emphasize the depth of the emotion. The child is holding a toy with both hands, perhaps gripping it tightly in response to their anger"
           }
         }
       }
@@ -382,6 +568,12 @@
             "state" : "translated",
             "value" : "في هَذِهِ الصُّوْرَةِ رَسْمٌ لِطِفْلٍ يَرْتَدِي ثَوْبًا سَعُوْدِيًّا وَعِمَامَةً بَيْضَاءَ. تَعْبِيرَاتُ وَجْهِ الطِّفْلِ تُوْحِي بِالْغَضَبِ، مَعَ تَجْعِيدِ الْحَوَاجِبِ وَتَعْبِيرَاتِ الْوَجْهِ الْجَدِيَّةِ."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, there's a depiction of a child wearing a Saudi thawb and a white turban. The child's facial expression suggests anger, with furrowed brows and a serious face expression."
+          }
         }
       }
     },
@@ -390,7 +582,13 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "\"في هذِهِ الصُّوْرَةِ، طِفْلٌ صَغِيْرٌ يَرْتَدِي الثَّوْبَ السَّعُوْدِيَّ وَالشُّمَاغَ الْأَحْمَرَ وَهُوَ غِطَاءُ الرَّأْسِ التَّقْلِيدِيُّ. يَبْتَسِمُ الطِّفْلُ بِالسَّعَادَةِ، وَيُمْكِنُكَ سَمَاعَ الْفَرَحَ فِي ابْتِسَامَتِهِ الْكَبِيْرَةِ التِّي تَكْشِفُ عَنْ أَسْنَانٍ وَاضِحَةٍ. وَمِنَ الْمُرَجَّحِ أَنْ يَكُونَ الثَّوْبُ أَبْيَضَ نَاصِعًا، وَالشُّمَاغُ مَلُوَّفًا بِشَكْلٍ أَنِيْقٍ. فِي يَدِ الطِّفْلِ، هُنَاكَ حَلْوَى يَحْمِلُهَا.\""
+            "value" : "في هذِهِ الصُّوْرَةِ، طِفْلٌ صَغِيْرٌ يَرْتَدِي الثَّوْبَ السَّعُوْدِيَّ وَالشُّمَاغَ الْأَحْمَرَ وَهُوَ غِطَاءُ الرَّأْسِ التَّقْلِيدِيُّ. يَبْتَسِمُ الطِّفْلُ بِالسَّعَادَةِ، وَيُمْكِنُكَ سَمَاعَ الْفَرَحَ فِي ابْتِسَامَتِهِ الْكَبِيْرَةِ التِّي تَكْشِفُ عَنْ أَسْنَانٍ وَاضِحَةٍ. وَمِنَ الْمُرَجَّحِ أَنْ يَكُونَ الثَّوْبُ أَبْيَضَ نَاصِعًا، وَالشُّمَاغُ مَلُفوَّفًا بِشَكْلٍ أَنِيْقٍ. فِي يَدِ الطِّفْلِ، هُنَاكَ حَلْوَى يَحْمِلُهَا."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this image, there's a young child wearing a Saudi thaub and a red Shemagh, which is a traditional headscarf. The child is beaming with happiness, and you can hear the joy in their big smile, revealing clear teeth. The thaub is likely a bright white, and the Shemagh is neatly draped. In the child's hand, there's candy they're holding"
           }
         }
       }
@@ -402,6 +600,12 @@
             "state" : "translated",
             "value" : "في هَذِهِ الصُّوْرَةِ، هُنَاكَ طِفْلٌ كَرِتُونِيٌّ يَشْعُ الْفَرَحَ بِابْتِسَامَةٍ مُشْرِقَةٍ عَلَى وَجْهِهِ. يَرْتَدِي الطِّفْلُ قَمِيصًا أَزْرَقًا نَابِضًا بِالْحَيَاةِ مُزَيَّنًا بِخَطُوطٍ بَيْضَاءَ مُبْهِجَةٍ، وَيَتَمَتَّعُ شَعْرُهُ بِمَظْهَرٍ مَرِحٍ وَأَشْعِثَ. التَّعْبِيرُ عَلَى وَجْهِ الطِّفْلِ يَنْضَحُ بِالسَّعَادَةِ وَالْإِثَارَةِ. ظِلَالُ اللَّوْنِ الْأَزْرَقِ فِي الْقَمِيصِ تُذَكِّرُنَا بِسَمَاءِ صَافِيَّةِ مُشْمِسَةِ، وَتَضِفُ الْخَطُوطُ الْبَيْضَاءُ عَلَى الْقَمِيصِ لَمْسَةً مُبْهِجَةً، تُشَبِّهُ رُشُقَاتٍ صَغِيْرَةً مِنَ السَّعَادَةِ. بِشَكْلٍ عَامٍّ، تَلْتَقِطُ الصُّوْرَةُ لَحْظَةً مِنَ الْفَرَحِ الْخَالِصِ وَالطَّاقَةِ الْإِيجَابِيَّةِ."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this picture, there's a cartoon kid radiating joy with a bright smile on their face. The kid is wearing a vibrant blue shirt adorned with cheerful white lines, and their hair has a playful, tousled look. The expression on the kid's face exudes happiness and excitement. The shades of blue in the shirt bring to mind a clear, sunny sky, and the white lines on the shirt add a delightful touch, resembling little bursts of happiness. Overall, the image captures a moment of pure joy and positive energy."
+          }
         }
       }
     },
@@ -411,6 +615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "في هذه الصورة، يوجد طفل كرتوني يبدو أنه يشعر بالحزن قليلاً. يرتدي الطفل قميصًا أزرق عليه خطوط بيضاء، وشعره فوضوي بعض الشيء. يظهر التعبير على وجه الطفل أنه قد يشعر بالإحباط قليلاً. قد تذكرك ظلال اللون الأزرق الموجودة في القميص بيوم ممطر. الخطوط البيضاء الموجودة على القميص تشبه الممرات الصغيرة، مما يمنح القميص لمسة خاصة."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In this picture, there's a cartoon kid who seems to be feeling a bit sad. The kid is wearing a blue shirt with white lines on it, and their hair is a bit messy. The expression on the kid's face shows that they might be feeling a bit down. The shades of blue in the shirt might remind you of a rainy day. The white lines on the shirt are like little paths, giving the shirt a special touch."
           }
         }
       }
@@ -423,25 +633,14 @@
             "state" : "translated",
             "value" : "الرمز"
           }
-        }
-      }
-    },
-    "Key 1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
+        },
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "k"
+            "value" : "Key"
           }
         }
       }
-    },
-    "Key 2" : {
-      "extractionState" : "manual"
-    },
-    "Key 3" : {
-      "extractionState" : "manual"
     },
     "Maknoon" : {
       "extractionState" : "manual",
@@ -450,6 +649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مكنون"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maknoon"
           }
         }
       }
@@ -471,6 +676,12 @@
             "state" : "translated",
             "value" : "مشاعِرِي"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My emotions"
+          }
         }
       }
     },
@@ -480,6 +691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " كُسِرَت لُعْبَتي لذا أنا غاضب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My toy is broken ,I'm Angry"
           }
         }
       }
@@ -492,6 +709,12 @@
             "state" : "translated",
             "value" : " كُسِرَت لُعْبَتي لذا أنا غاضب"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "my Toy is broken I'm angry"
+          }
         }
       }
     },
@@ -501,6 +724,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : " كُسِرَت لُعْبَتي لذا أنا غاضب"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My toy is broken, I'm Angry"
           }
         }
       }
@@ -512,6 +741,12 @@
             "state" : "translated",
             "value" : "التالي"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
         }
       }
     },
@@ -522,6 +757,12 @@
             "state" : "translated",
             "value" : "جُمْلَة"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "phrase"
+          }
         }
       }
     },
@@ -531,6 +772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "جُمْلَة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrase"
           }
         }
       }
@@ -554,6 +801,12 @@
             "state" : "translated",
             "value" : "حُزْنْ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sad"
+          }
         }
       }
     },
@@ -563,6 +816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "حُزْنْ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sad"
           }
         }
       }
@@ -585,6 +844,12 @@
             "state" : "translated",
             "value" : "طِفْلٌ حَزِينٌ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sad kid"
+          }
         }
       }
     },
@@ -594,6 +859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "طِفْلٌ حَزِينٌ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sad Kid"
           }
         }
       }
@@ -605,6 +876,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "عبارة حزينة شعرت بالإحباط أنا حزين"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sad phrase I felt down I am sad"
           }
         }
       }
@@ -628,6 +905,12 @@
             "state" : "translated",
             "value" : "خَائفْ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scared"
+          }
         }
       }
     },
@@ -639,6 +922,12 @@
             "state" : "translated",
             "value" : "طِفْلٌ خائفْ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scared child"
+          }
         }
       }
     },
@@ -649,6 +938,12 @@
             "state" : "translated",
             "value" : "طِفْلٌ خائفْ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scared kid"
+          }
         }
       }
     },
@@ -658,6 +953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "طِفْلٌ خائفْ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scared Kid"
           }
         }
       }
@@ -681,6 +982,12 @@
             "state" : "translated",
             "value" : "وَجْهٌ مُبْتَسِمْ"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "smiley Face"
+          }
         }
       }
     },
@@ -690,6 +997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مُكَبِّرُ الصَّوْتْ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speaker"
           }
         }
       }
@@ -712,6 +1025,12 @@
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة  \"الحلوى تجعلني سعيداً\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'Candy makes me happy'"
+          }
         }
       }
     },
@@ -721,6 +1040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة  \"أنا غاضب\""
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'I am Angry'"
           }
         }
       }
@@ -732,6 +1057,12 @@
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة  \"أنا حزين\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'I am sad'"
+          }
         }
       }
     },
@@ -741,6 +1072,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة \"أنا خائف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'I am Scared'"
           }
         }
       }
@@ -753,6 +1090,12 @@
             "state" : "translated",
             "value" : "انقر لسماع عبارة \"شَعَرْتُ بالإحْباطِ وأنا حزين\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'I felt down I am sad'"
+          }
         }
       }
     },
@@ -762,6 +1105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة \"خَسِرْتُ السِّباقَ لِذا أنا حَزِينْ\""
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'I lost the race, I am sad'"
           }
         }
       }
@@ -773,6 +1122,12 @@
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة \" كُسِرَت لُعْبَتي لذا أنا غاضب\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'My toy is broken ,Im Angry'"
+          }
         }
       }
     },
@@ -782,6 +1137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة \" الرَعدُ يجعَلُنِي خَائفاً\""
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the phrase 'Thunder makes me scared'"
           }
         }
       }
@@ -793,6 +1154,12 @@
             "state" : "translated",
             "value" : "انقر لسماع كلمة \"غاضب\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the word 'Angry'"
+          }
         }
       }
     },
@@ -803,6 +1170,12 @@
             "state" : "translated",
             "value" : "انقر لسماع كلمة \"سعيد\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the word 'happy'"
+          }
         }
       }
     },
@@ -812,6 +1185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة \" أنا سعيد\""
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the word 'I'm happy'"
           }
         }
       }
@@ -824,6 +1203,12 @@
             "state" : "translated",
             "value" : "انقر لسماع كلمة \"أشعر بالسعادة\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the word 'Ifeel happy'"
+          }
         }
       }
     },
@@ -833,6 +1218,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "انقر لسماع كلمة \"حزين\""
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the word 'Sad'"
           }
         }
       }
@@ -844,6 +1235,12 @@
             "state" : "translated",
             "value" : "اُنْقُرْ لِسَمَاعْ عِبَارَة \"خائف\""
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to hear the word 'Scared'"
+          }
         }
       }
     },
@@ -853,6 +1250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "انقر للانتقال إلى الصفحة التالية"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to move to the next page"
           }
         }
       }
@@ -865,6 +1268,12 @@
             "state" : "translated",
             "value" : " الرَعدُ يَجعَلُني خائفاً"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thunder makes me scared"
+          }
         }
       }
     },
@@ -874,6 +1283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "كلمة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "word"
           }
         }
       }
@@ -885,6 +1300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "مكنون"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maknoon"
           }
         }
       }

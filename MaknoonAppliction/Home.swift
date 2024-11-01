@@ -26,7 +26,7 @@ struct Home: View {
                       .font(.system(size: fontSize2))
                       .fontWeight(.bold)
                       .multilineTextAlignment(.center)
-                      .foregroundColor(Color("purple"))
+                      .foregroundColor(Color("Midpurple"))
                       .padding()
                       
                   HStack{
@@ -42,7 +42,7 @@ struct Home: View {
                                       .rotationEffect(.degrees(-180))
                                       .shadow(color: Color("Shadow"), radius: 2, x: 0, y: 2)
                                   Image("HappyIcon")
-                                      .resizable() .foregroundColor(Color("purple"))
+                                      .resizable() .foregroundColor(Color("Midpurple"))
                                       .frame(width: 140,height: 150)
                                       .offset(x:1,y:-20)
                                   Text("Happy")
@@ -52,7 +52,7 @@ struct Home: View {
                                       .multilineTextAlignment(.center)
                                       .offset(x:0,y:82
                                       )
-                                      .foregroundColor(Color("purple"))
+                                      .foregroundColor(Color("Midpurple"))
                               }
                               
                           }
@@ -69,7 +69,7 @@ struct Home: View {
                                               .rotationEffect(.degrees(-180))
                                               .shadow(color: Color("Shadow"), radius: 2, x: 0, y: 2)
                                           Image("AngryIcon")
-                                              .resizable() .foregroundColor(Color("purple"))
+                                              .resizable() .foregroundColor(Color("Midpurple"))
                                               .frame(width: 140,height: 150)
                                               .offset(x:1,y:-20)
                                           Text("Angry")
@@ -78,7 +78,7 @@ struct Home: View {
                                               .fontWeight(.bold)
                                               .multilineTextAlignment(.center)
                                               .offset(x:0,y:82)
-                                              .foregroundColor(Color("purple"))
+                                              .foregroundColor(Color("Midpurple"))
                                       } }
                       }
                       .padding(10)
@@ -94,7 +94,7 @@ struct Home: View {
                                               .rotationEffect(.degrees(-180))
                                               .shadow(color: Color("Shadow"), radius: 2, x: 0, y: 2)
                                           Image("sad")
-                                              .resizable() .foregroundColor(Color("purple"))
+                                              .resizable() .foregroundColor(Color("Midpurple"))
                                               .frame(width: 140,height: 150)
                                               .offset(x:1,y:-20)
                                           Text("Sad")
@@ -103,7 +103,7 @@ struct Home: View {
                                               .fontWeight(.bold)
                                               .multilineTextAlignment(.center)
                                               .offset(x:0,y:82)
-                                              .foregroundColor(Color("purple"))
+                                              .foregroundColor(Color("Midpurple"))
                                       } }
                               .padding(40)
                           Button(action: {
@@ -117,7 +117,7 @@ struct Home: View {
                                               .rotationEffect(.degrees(-180))
                                               .shadow(color: Color("Shadow"), radius: 2, x: 0, y: 2)
                                           Image("Scared")
-                                              .resizable() .foregroundColor(Color("purple"))
+                                              .resizable() .foregroundColor(Color("Midpurple"))
                                               .frame(width: 140,height: 150)
                                               .offset(x:1,y:-20)
                                           Text("Scared")
@@ -126,7 +126,7 @@ struct Home: View {
                                               .fontWeight(.bold)
                                               .multilineTextAlignment(.center)
                                               .offset(x:0,y:82)
-                                              .foregroundColor(Color("purple"))
+                                              .foregroundColor(Color("Midpurple"))
                                       } }// .padding()
                       }
                       
